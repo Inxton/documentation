@@ -1,10 +1,10 @@
-![Inxton logo](https://github.com/Inxton/documentation/raw/master/assets/logo.png)
+![Inxton logo](/common/assets/logo.png)
 
 # Inxton.Vortex.Presentation.Wpf
 
 ## RenderableContentControl
 
-```RendenderableContentControl```  is the component used for placing renderable content into the user interface. ```RendererableContentControl``` can render [TwinObject or PrimitiveTwins](https://github.com/Inxton/Inxton.Package.Vortex.Core/blob/master/Inxton.vortex.compiler.console/Conceptual/Twins.md), these object come from the code created by the inxton.vortex.compiler.
+```RendenderableContentControl```  is the component used for placing renderable content into the user interface. ```RendererableContentControl``` can render [TwinObject or PrimitiveTwins](/apis/Inxton.vortex.compiler.console/Conceptual/Twins.md), these object come from the code created by the inxton.vortex.compiler.
 
 ## How to place an auto-rendered control into UI
 
@@ -16,7 +16,7 @@ xmlns:vortex="http://vortex.mts/xaml"
 
 ### Renderable objects (DataContext)
 
-```DataContext``` of a ```RenderableContentControl``` is the object that the rendering system will create and place into UI. The object that is assigned to the DataContext must be a [TwinObject](https://github.com/Inxton/Inxton.Package.Vortex.Core/blob/master/Inxton.vortex.compiler.console/Conceptual/TwinObjects.md).
+```DataContext``` of a ```RenderableContentControl``` is the object that the rendering system will create and place into UI. The object that is assigned to the DataContext must be a [TwinObject](/apis/Inxton.vortex.compiler.console/Conceptual/TwinObjects.md).
 
 ### Presentation type
 
