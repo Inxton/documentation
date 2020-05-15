@@ -37,7 +37,7 @@ Compiled entities are called [*Twins*](Conceptual/Twins.md). There are three mai
 
 The best way to get started with the compiler is to use examples form [Inxton.Package.Vortex.Core](../Inxton.Package.Vortex.Core/README.MD).
 
-### Pre-requisites check [here](../PREREQUISITES.MD) please
+### Pre-requisites check [here](/common/PREREQUISITES.md) please
 
 ### First project
 
