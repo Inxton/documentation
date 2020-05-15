@@ -150,7 +150,7 @@ StationICAO : STRING(4);
 
 ![rendering_ui_result](./assets/attribute_name.png)
 
-> NOTE: Tags `<#` `#>` are optional. The string within the tags is used to localize your application.
+> NOTE: Tags `<#` `#>` are optional. The strings within the tags can be localized your application.
 
 ### How to ignore a variable
 
