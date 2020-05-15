@@ -24,7 +24,7 @@ If you are not familiar with INXTON, make sure you understand the basics [Inxton
 
 ## Required NuGet packages
 
-Make sure you install following NuGet packages.
+Make sure you install the following NuGet packages.
 
 For TwinConnector project:
 
@@ -40,7 +40,7 @@ https://www.nuget.org/packages/Inxton.Package.Vortex.Essentials.Wpf/
 Install-Package Inxton.Package.Vortex.Essentials.Wpf
 ~~~
 
-## Installing license
+## Installing the license
 
 Get your free developer license [here](/common/LicenseInstallation.md).
 
@@ -170,7 +170,7 @@ If don't want to render a variable in a specific presentation type `{attribute c
 
 Views inside `RenderableContentControl` in a `StackPanel` by default. 
 
-To change it to a `Grid` you do the following.
+To change it to a `Grid`, you do the following.
 
 ~~~xml
 <vortex:RenderableContentControl DataContext="{Binding MAIN.TwinObject}" >
@@ -228,7 +228,7 @@ Inxton automatically injects your view.
 
 You have one object in your PLC with you want to display in many ways - Manual view for maintenance, read-only view for operators. And it's easy to do!
 
-All you have to do is to create a custom view, as is shown in the example above with a slight change.
+All you have to do is to create a custom view, as is shown in the example above, with a slight change.
 
 Create `fbWorldWeatherWatchVerlView` =  `fbWorldWeatherWatch`+`Verl`+`View`
 ~~~xml
