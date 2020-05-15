@@ -315,7 +315,7 @@ Learn more about styles [here](./Styles/README.md)
 
 ## What to do next?
 
-Checkout documentation  [Inxton.Package.Vortex.Core](https://github.com/Inxton/documentation).
+Checkout documentation  [Inxton.Package.Vortex.Core](/Inxton.Package.Vortex.Core/README.md).
 
 Learn more about [how it works](/apis/Inxton.Vortex.Presentation.Wpf/README.md).
 
