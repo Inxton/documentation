@@ -47,6 +47,6 @@ See also
 
 * [Inxton.Vortex.Connector](/apis/Inxton.Vortex.Connector/README.md)
 * [Inxton.Vortex.Compiler](/apis/Inxton.vortex.compiler.console/README.md)
-* [Inxton.Package.Vortex.Essentials](/Inxton.Package.Vortex.Essentials\README.md)
+* [Inxton.Package.Vortex.Essentials](/Inxton.Package.Vortex.Essentials/README.md)
 
 
