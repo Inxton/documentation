@@ -10,9 +10,9 @@ This project is part of Inxton.Vortex.Framework. At this point, it contains libr
 
 ## What's inside *Inxton.Package.Vortex.Essentials* package
 
-- **Inxton.Vortex.Presentation.Controls.Wpf** - User interface for basic controls [API](/apis/Inxton.Presentation.Controls.Wpf/API/_Sidebar.md)
-- **Inxton.Vortex.Presentation.Styling.Wpf** - Styling with Material design in mind
-- **Inxton.Vortex.Presentation.Wpf** - Engine for generating user interface, layouts [API](API/Vortex.Presentation.Wpf.Documentation/_Sidebar.md)
+- **[Inxton.Vortex.Presentation.Controls.Wpf](/apis/Inxton.Vortex.Presentation.Controls.Wpf/API/_Sidebar.md)** - User interface for basic controls 
+- **[Inxton.Vortex.Presentation.Styling.Wpf](/apis/Inxton.Vortex.Presentation.Styling.Wpf/README.md)** - Styling with Material design in mind
+- **[Inxton.Vortex.Presentation.Wpf](/apis/Inxton.Vortex.Presentation.Wpf/README.md)**- Engine for generating user interface, layout. 
 
 # Getting started
 
@@ -42,16 +42,7 @@ Install-Package Inxton.Package.Vortex.Essentials.Wpf
 
 ## Installing license
 
-To run your Inxton application, you need to have a valid license. The preview license file is provided completely free of charge. 
-It's simple, just grab it by following these steps. 
-
-Easy installation steps:
-1. Dowload **Licence.xml** file from github environment [here](http://bit.ly/future_of_automation) or as raw format [here](https://bit.ly/2w8nFbT).
-2. Don't forget to save licence as **.xml** file.
-3. Copy/Move licence into **'C:\Inxton\Licence.xml'** folder.
-
-> **Note:** *Preview licence is valid until 2020-SEPT-01. Don't worry; you should be fine, the full release is coming out in July 2020.*
-
+Get your free developer license [here](/common/LicenseInstallation.md).
 
 ## How to generate UI
 
@@ -326,9 +317,9 @@ Learn more about styles [here](./Styles/README.md)
 
 Checkout documentation  [Inxton.Package.Vortex.Core](https://github.com/Inxton/documentation).
 
-Learn more about [how it works](Inxton.Vortex.Presentation.Wpf/README.md).
+Learn more about [how it works](/apis/Inxton.Vortex.Presentation.Wpf/README.md).
 
-Learn more about styles [here](./Styles/README.md).
+Learn more about styles [here](/apis/Inxton.Vortex.Presentation.Styling.Wpf/README.md).
 
 Install the extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Inxton.InxtonVortexBuilderExtensionPre).
 
@@ -349,15 +340,6 @@ Install the extension from [Visual Studio Marketplace](https://marketplace.visua
 
 We are more than happy to hear your feedback, ideas!
 Just submit it [here](https://github.com/Inxton/Feedback/issues/new/choose)  
-
-
-# License
-TLDR
-> Developers are encouraged to use this project -  free of charge. However, when you want to use it in the production environment, you need to go to  [INXTON.com](https://www.inxton.com/) and purchase a license.
-
-to make our lawyers happy - read the whole license agreement [here](https://github.com/Inxton/about/blob/master/license.md)
-
-
 
 ---
 Developed with ♥ at [MTS](https://www.mts.sk/en) - putting the heart into manufacturing.
