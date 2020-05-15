@@ -11,13 +11,13 @@ Inxton.Package.Vortex.Core (Core) provides foundational tools and libraries for 
 Core package consists of several crucial components, these provide solid foundation for Inxton.Vortex.Framework.
 
 - [Compiler/Builder](/./apis/Inxton.vortex.compiler.console/README.md)
-- [Communication libraries](/./apis/Inxton.Vortex.Connector/README.MD)
+- [Communication libraries](/./apis/Inxton.Vortex.Connector/README.md)
 
 In few sentences, Compiler parses your TwinCAT 3 project and converts it into Connector project. Connector will provides you access to your PLC project from Inxton application via Communication libraries.
 
 ## Pre-Requisites
 
-Before you start building your fist app please make sure you meet all pre-requisites [here](/././common/PREREQUISITES.MD).
+Before you start building your fist app please make sure you meet all pre-requisites [here](/././common/PREREQUISITES.md).
 
 ## Installing licence
 
@@ -25,7 +25,7 @@ Get your free developer license [here](/././common/LicenseInstallation.md)
 
 ## Installation
 
-Checkout the installation procedure as easy instruction video [here](/././common/INSTALLATION.MD)
+Checkout the installation procedure as easy instruction video [here](/././common/INSTALLATION.md)
 
 ## Important note to namespaces
 
@@ -45,7 +45,7 @@ How to get started with new project see [here](/apis/Inxton.vortex.compiler.cons
 
 See also
 
-* [Inxton.Vortex.Connector](/apis/Inxton.Vortex.Connector/README.MD)
+* [Inxton.Vortex.Connector](/apis/Inxton.Vortex.Connector/README.md)
 * [Inxton.Vortex.Compiler](/apis/Inxton.vortex.compiler.console/README.md)
 * [Inxton.Package.Vortex.Essentials](/Inxton.Package.Vortex.Essentials\README.md)
 
