@@ -312,6 +312,9 @@ Add these resources to `App.xaml`.
 
 Learn more about styles [here](./Styles/README.md)
 
+## New project template
+When you are already familiar with the framework you can [clone](https://github.com/Inxton/template.essentials.git) or [download](https://github.com/Inxton/template.essentials/archive/master.zip) the [template.essentials](https://github.com/Inxton/template.essentials) project.
+
 
 ## What to do next?
 
