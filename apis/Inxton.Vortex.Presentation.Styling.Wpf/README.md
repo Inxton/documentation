@@ -1,4 +1,4 @@
-![Inxton logo](https://github.com/Inxton/documentation/raw/master/assets/logo.png)
+![Inxton logo](/common/assets/logo.png)
 
 # Inxton.Package.Vortex.Styling.Wpf
 
@@ -198,7 +198,7 @@ to make our lawyers happy - read the whole license agreement [here](https://gith
 
 
 ---
-Developed with ♥ at [MTS](https://www.mts.sk/) - putting the heart into manufacturing.
+Developed with ♥ at [MTS](https://www.mts.sk/en) - putting the heart into manufacturing.
 
 
 
