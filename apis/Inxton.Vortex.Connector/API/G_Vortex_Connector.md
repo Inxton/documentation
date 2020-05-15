@@ -1,0 +1,8 @@
+# Vortex.Connector Namespaces
+ _**\[This is preliminary documentation and is subject to change.\]**_
+
+\[Missing <summary> documentation for "G:Vortex.Connector"\]
+
+
+## Namespaces
+&nbsp;<table><tr><th>Namespace</th><th>Description</th></tr><tr><td><a href="N_Vortex_Connector.md">Vortex.Connector</a></td><td><a href="N_Vortex_Connector.md">Vortex.Connector</a> namespace groups building block of Vortex Connector that mediates the connectivity to the PLC for vortex framework application. It also provides multiple functions to manage the transfer of data between .net application and PLC system.</td></tr><tr><td><a href="N_Vortex_Connector_Attributes.md">Vortex.Connector.Attributes</a></td><td></td></tr><tr><td><a href="N_Vortex_Connector_Identity.md">Vortex.Connector.Identity</a></td><td></td></tr><tr><td><a href="N_Vortex_Connector_LibraryDescriptors.md">Vortex.Connector.LibraryDescriptors</a></td><td></td></tr><tr><td><a href="N_Vortex_Connector_Peripheries.md">Vortex.Connector.Peripheries</a></td><td></td></tr><tr><td><a href="N_Vortex_Connector_Reflections.md">Vortex.Connector.Reflections</a></td><td><a href="N_Vortex_Connector_Reflections.md">Vortex.Connector.Reflections</a> Contais set of methods and extension methods to be reflect upon vortex framework types.</td></tr><tr><td><a href="G_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a></td><td></td></tr><tr><td><a href="N_Vortex_Connector_ValueValidation.md">Vortex.Connector.ValueValidation</a></td><td><a href="N_Vortex_Connector_ValueValidation.md">Vortex.Connector.ValueValidation</a> namespace contains validators for PLC's value tags.</td></tr></table>&nbsp;

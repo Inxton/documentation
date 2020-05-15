@@ -1,0 +1,12 @@
+{
+  "Types": [
+    {
+      "TypeAttributes": "\n{attribute addProperty Name \"\" }",
+      "TypeName": "MAIN",
+      "Namespace": "Plc",
+      "TypeMetaInfo": 3
+    }
+  ],
+  "Name": "Plc",
+  "Namespace": "Plc"
+}

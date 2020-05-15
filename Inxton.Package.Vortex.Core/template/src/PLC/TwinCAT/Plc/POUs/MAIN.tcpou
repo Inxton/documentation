@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.0">
+  <POU Name="MAIN" Id="{2aec7386-fec2-4299-8c2e-88bb20ee3274}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	{attribute addProperty Name "Hello world"}
+	Hello_World : STRING;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[Hello_World := 'This is message from PLC!' ;]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

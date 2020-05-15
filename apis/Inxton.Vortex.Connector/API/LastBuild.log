@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.6.24.0" projectFile="C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Vortex.Connectors.Documentation.shfbproj" started="2/27/2020 3:24:36 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;Cross-platform (.NET Core/.NET Standard)&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Markdown&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown&#39;
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\Vortex.Connector.csproj
+    Found project &#39;C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\Vortex.Connector.csproj&#39;
+Source: C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Adapters.Connector.Tc3\Vortex.Adapters.Connector.Tc3.csproj
+    Found project &#39;C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Adapters.Connector.Tc3\Vortex.Adapters.Connector.Tc3.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\bin\Release\netstandard2.0\Vortex.Connector.dll&#39;
+    Found assembly &#39;C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Adapters.Connector.Tc3\bin\Release\netstandard2.0\Vortex.Adapters.Connector.Tc3.dll&#39;
+
+References to include:
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.NonGeneric.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Specialized.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Composition.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.EventBasedAsync.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.TypeConverter.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Console.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Core.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Contracts.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Debug.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.FileVersionInfo.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Process.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TextWriterTraceListener.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tools.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TraceSource.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Dynamic.Runtime.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Calendars.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.FileSystem.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.ZipFile.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.DriveInfo.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Watcher.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.IsolatedStorage.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.MemoryMappedFiles.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Pipes.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.UnmanagedMemoryStream.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Expressions.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Parallel.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Queryable.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NameResolution.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NetworkInformation.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Ping.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Requests.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Security.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebHeaderCollection.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.Client.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Numerics.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ObjectModel.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Extensions.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Reader.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.ResourceManager.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Writer.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.CompilerServices.VisualC.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Extensions.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Handles.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.RuntimeInformation.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Numerics.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Formatters.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Json.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Xml.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Claims.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Csp.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Encoding.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Primitives.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.X509Certificates.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Principal.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ServiceModel.Web.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.Extensions.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.RegularExpressions.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.Parallel.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Thread.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.ThreadPool.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Timer.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Transactions.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ValueTuple.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Web.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Windows.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Linq.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.ReaderWriter.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Serialization.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XDocument.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlDocument.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlSerializer.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.dll
+    C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll
+    Newtonsoft.Json
+    Serilog
+    Serilog.Sinks.Console
+    Serilog.Sinks.File
+    TwinCAT.Ads
+
+Copying XML comments files
+    C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\Vortex.Connector.xml -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Connector.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0050
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 2/27/2020 3:24:37 PM.
+Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+_HandlePackageFileConflicts:
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll&#39; and &#39;Platform:System.Diagnostics.Tracing.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Diagnostics.Tracing.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll&#39; and &#39;Platform:System.IO.Compression.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.IO.Compression.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.3.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll&#39; and &#39;Platform:System.Net.Http.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Net.Http.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll&#39; and &#39;Platform:System.Data.Common.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Data.Common.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll&#39; and &#39;Platform:System.Diagnostics.StackTrace.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Diagnostics.StackTrace.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.4.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll&#39; and &#39;Platform:System.Globalization.Extensions.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Globalization.Extensions.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll&#39; and &#39;Platform:System.Net.Sockets.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Net.Sockets.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll&#39; and &#39;Platform:System.Runtime.Serialization.Primitives.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Runtime.Serialization.Primitives.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.3.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll&#39; and &#39;Platform:System.Security.Cryptography.Algorithms.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Security.Cryptography.Algorithms.dll&#39; because AssemblyVersion &#39;4.3.0.0&#39; is greater than &#39;4.2.2.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll&#39; and &#39;Platform:System.Security.SecureString.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Security.SecureString.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.2.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll&#39; and &#39;Platform:System.Threading.Overlapped.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Threading.Overlapped.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Users\peto.kurhajec\.nuget\packages\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll&#39; and &#39;Platform:System.Xml.XPath.XDocument.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Xml.XPath.XDocument.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+GenerateBindingRedirects:
+  No suggested binding redirects from ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 2 assemblies for reflection and 128 dependency assemblies.
+  Wrote information on 14 namespaces, 154 types, and 558 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:00.9929
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 2/27/2020 3:24:38 PM.
+Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.ungrouped&quot;.
+  AddNamespaceGroups (v2019.6.24.0)
+  Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+  Added 3 namespace group entries
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter_Create_1 generated for M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)
+    Unique name M_Vortex_Connector_ConnectorAdapter__ctor_1 generated for M:Vortex.Connector.ConnectorAdapter.#ctor(System.Type)
+    Unique name M_Vortex_Connector_IConnector__ctor_1 generated for M:Vortex.Connector.IConnector.#ctor(System.Object[])
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateBOOL_1 generated for M:Vortex.Connector.IConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateBYTE_1 generated for M:Vortex.Connector.IConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateDATE_1 generated for M:Vortex.Connector.IConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateDATE_TIME_1 generated for M:Vortex.Connector.IConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateDINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateDWORD_1 generated for M:Vortex.Connector.IConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateLINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateLREAL_1 generated for M:Vortex.Connector.IConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateLTIME_1 generated for M:Vortex.Connector.IConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateLWORD_1 generated for M:Vortex.Connector.IConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateREAL_1 generated for M:Vortex.Connector.IConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateSINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateSTRING_1 generated for M:Vortex.Connector.IConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateTIME_1 generated for M:Vortex.Connector.IConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateTIME_OF_DAY_1 generated for M:Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateUDINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateUINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateULINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateUSINT_1 generated for M:Vortex.Connector.IConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateWORD_1 generated for M:Vortex.Connector.IConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IConnectorFactory_CreateWSTRING_1 generated for M:Vortex.Connector.IConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_IgnoreReflectionAttribute_HasIgnoreReflectionAttribute_1 generated for M:Vortex.Connector.IgnoreReflectionAttribute.HasIgnoreReflectionAttribute(System.Reflection.PropertyInfo,System.Object)
+    Unique name M_Vortex_Connector_StringInterpolator_Interpolate_1 generated for M:Vortex.Connector.StringInterpolator.Interpolate(System.String,Vortex.Connector.IVortexElement)
+    Unique name M_Vortex_Connector_Attributes_CompilerOmitsAttribute__ctor_1 generated for M:Vortex.Connector.Attributes.CompilerOmitsAttribute.#ctor(Vortex.Connector.Attributes.CompilerOmissionGroups[])
+    Unique name M_Vortex_Connector_Identity_VortexIdentityProvider_GetVortexerByIdentity_1 generated for M:Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.UInt64)
+    Unique name M_Vortex_Connector_Identity_VortexIdentityProvider_GetVortexerByIdentity_2 generated for M:Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+    Unique name M_Vortex_Connector_Peripheries_IoBindingAttribute__ctor_1 generated for M:Vortex.Connector.Peripheries.IoBindingAttribute.#ctor(System.String,System.String)
+    Unique name M_Vortex_Connector_Reflections_ReflectionHelpers_GetObjectOfType_1 generated for M:Vortex.Connector.Reflections.ReflectionHelpers.GetObjectOfType(System.Object,Vortex.Connector.Reflections.ReflectionHelpers.IsRequiredTypeDelegate,System.Collections.Generic.List{System.Object})
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerBaseType_1__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerBool__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerBool.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerByte__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerByte.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerDate__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerDate.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerDateTime__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerDateTime.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerDInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerDInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerDWord__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerDWord.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerLInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerLInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerLReal__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerLReal.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerLTime__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerLTime.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerLWord__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerLWord.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerReal__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerReal.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerReal_IsCyclicNearlyEqualTo_1 generated for M:Vortex.Connector.ValueTypes.OnlinerReal.IsCyclicNearlyEqualTo(System.Single,System.Single)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerReal_IsSynchronNearlyEqualTo_1 generated for M:Vortex.Connector.ValueTypes.OnlinerReal.IsSynchronNearlyEqualTo(System.Single,System.Single)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerSInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerSInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerString__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerTime__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerTime.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerTimeOfDay__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerTimeOfDay.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerUDInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerUDInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerUInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerUInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerULInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerULInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerUSInt__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerUSInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerWord__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerWord.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Connector_ValueTypes_OnlinerWString__ctor_1 generated for M:Vortex.Connector.ValueTypes.OnlinerWString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+    Unique name M_Vortex_Localizations_LocalizationHelper_CreateTranslationTable_1 generated for M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})
+    Unique name M_Vortex_Localizations_Abstractions_ITranslator_Get_1 generated for M:Vortex.Localizations.Abstractions.ITranslator.Get(System.Type)
+    Unique name M_Vortex_Localizations_Resx_Translator__ctor_1 generated for M:Vortex.Localizations.Resx.Translator.#ctor(System.Type)
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:00:00.7780
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0910
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2019.6.24.0
+Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.xml&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\*.xml
+Indexing C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\TwinCAT.Ads.xml
+Indexing C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.Sinks.File.xml
+Indexing C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.Sinks.Console.xml
+Indexing C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.xml
+Indexing C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Newtonsoft.Json.xml
+Indexing C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Connector.xml
+Indexed 166726 members in 133 file(s).  6 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:00.9209
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\Welcome.aml&#39;
+    C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\Welcome.aml -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\ddueXml\d558a0bb-be7e-4dc6-9f00-fa3b1eb6875b.xml
+    Parsing topic file &#39;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\ddueXml\d222d594-eadd-4d05-91fe-18eb0c3e98ae.xml
+    Parsing topic file &#39;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\ddueXml\63d6e5b0-c081-4815-b656-0f27ec960b1d.xml
+    Last step completed in 00:00:00.0270
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00.0060
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\icons\Help.png -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\icons\Help.png
+    Last step completed in 00:00:00.0050
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 2/27/2020 3:24:40 PM.
+Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.2310
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.1710
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 2/27/2020 3:24:41 PM.
+Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Adapters.Connector.Tc3.Adapter] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;port&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;consoleOutput&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;symbolLoadingMode&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;symbolLoadingMethod&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;amsId&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;port&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;consoleOutput&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;symbolLoadingMode&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)] Missing &lt;param name=&quot;symbolLoadingMethod&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.ConnectorAdapter.GetConnector(System.Object[])] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.DummyConnectorFactory.CreateConnector(System.Object[])] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Connector.IConnector.Logger] Unknown reference link target &#39;T:Serilog.ILogger&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateBOOL] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateBYTE] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateConnector(System.Object[])] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateDATE] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateDATE_TIME] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateDINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateDWORD] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateLINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateLREAL] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateLTIME] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateLWORD] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateREAL] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateSINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateSTRING] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateTIME] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateUDINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateUINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateULINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateUSINT] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateWORD] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IConnectorFactory.CreateWSTRING] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IgnoreReflectionAttribute.HasIgnoreReflectionAttribute(System.Reflection.PropertyInfo,System.Object)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.InvalidLicenseConnectorAdapter.#ctor(System.Object[])] Missing &lt;param name=&quot;Parameters&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.InvalidLicenseConnectorFactory.CreateConnector(System.Object[])] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IValueTag.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)] Missing &lt;param name=&quot;handler&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IVortexElement.GetSymbolTail] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IVortexObject.GetChildren] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IVortexObject.GetConnector] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.IVortexObject.GetValueTags] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.RootVortexerObject.AddChild(Vortex.Connector.IVortexObject)] Missing &lt;param name=&quot;vortexObject&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)] Missing &lt;param name=&quot;valueTag&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.RootVortexerObject.GetChildren] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.RootVortexerObject.GetConnector] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.RootVortexerObject.GetParent] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.RootVortexerObject.GetSymbolTail] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.RootVortexerObject.GetValueTags] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Connector.Attributes] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Connector.Identity] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.Identity.VortexIdentityProvider.#ctor(Vortex.Connector.IConnector)] Missing &lt;param name=&quot;connector&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Connector.LibraryDescriptors] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Connector.Peripheries] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.Peripheries.IoBindingAttribute.GetLinks(Vortex.Connector.IVortexElement,Vortex.Connector.Peripheries.BindLink,System.Collections.Generic.IList{Vortex.Connector.Peripheries.BindLink},System.String)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.Peripheries.IoBindingAttribute.GetParentLessLinks(System.Collections.Generic.IEnumerable{Vortex.Connector.Peripheries.BindLink},System.Collections.Generic.IList{Vortex.Connector.Peripheries.BindLink})] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.Peripheries.IoBindingAttribute.GetPrimitiveLinks(System.Collections.Generic.IEnumerable{Vortex.Connector.Peripheries.BindLink},System.Collections.Generic.IList{Vortex.Connector.Peripheries.BindLink})] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.Peripheries.IoBindingAttribute.GetPrimitiveLinks(System.Collections.Generic.IEnumerable{Vortex.Connector.Peripheries.BindLink},System.Collections.Generic.IList{Vortex.Connector.Peripheries.BindLink})] Missing &lt;param name=&quot;links&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.Peripheries.IoBindingAttribute.GetPrimitiveLinks(System.Collections.Generic.IEnumerable{Vortex.Connector.Peripheries.BindLink},System.Collections.Generic.IList{Vortex.Connector.Peripheries.BindLink})] Missing &lt;param name=&quot;primitiveLinks&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.Peripheries.IoBindingAttribute.RetrieveLinks(System.Object,System.Collections.Generic.IDictionary{System.String,Vortex.Connector.Peripheries.PeripheryLink})] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Connector.ValueTypes.OnlinerBaseType`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerBaseType`1] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerBaseType`1] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Edit] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerBool] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerBool] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerByte] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerByte] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDate] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDate] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDateTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeOfDay] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerTimeOfDay] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerULInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerULInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerWString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerWString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.ValueTypes.ValueChangedEventArgs.#ctor(System.Object)] Missing &lt;param name=&quot;newValue&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Connector.ValueValidation.IValueBoundaries`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Localizations] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Localizations.IdentifierValidator] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.IdentifierValidator.MakeValidIdentifier(System.String)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.IdentifierValidator.MakeValidIdentifier(System.String)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.IdentifierValidator.MakeValidIdentifier(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Localizations.LocalizableItem] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.LocalizableItem.Key] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.LocalizableItem.Location] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Localizations.Localizables] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.Localizables.Key] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.Localizables.Location] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.Localizables.Original] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.Localizables.Translation] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.Localizables.Used] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Localizations.LocalizationHelper] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;param name=&quot;list&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})] Missing &lt;param name=&quot;list&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)] Missing &lt;param name=&quot;localizables&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)] Missing &lt;param name=&quot;cultures&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)] Missing &lt;param name=&quot;folder&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})] Missing &lt;param name=&quot;localizables&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String,System.String)] Missing &lt;param name=&quot;folder&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String,System.String)] Missing &lt;param name=&quot;culture&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;folder&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;localizer&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;culture&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Localizations.LocalizerDictionary] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.LocalizerDictionary.Culture] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.LocalizerDictionary.Dictionary] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.LocalizerDictionary.SortedDictionary] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Localizations.Abstractions] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Get] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Get] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Get(System.Type)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Get(System.Type)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Get(System.Type)] Missing &lt;param name=&quot;resource&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.Abstractions.ITranslator.Id] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.LoadDictionaries(System.Globalization.CultureInfo)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.LoadDictionaries(System.Globalization.CultureInfo)] Missing &lt;param name=&quot;culture&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Translate(System.String)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Translate(System.String)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Abstractions.ITranslator.Translate(System.String)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Vortex.Localizations.Resx] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Vortex.Localizations.Resx.Translator] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Resx.Translator.#ctor(System.Type)] Missing &lt;param name=&quot;resource&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Vortex.Localizations.Resx.Translator.Id] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Resx.Translator.Translate(System.String)] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Resx.Translator.Translate(System.String)] Missing &lt;returns&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Vortex.Localizations.Resx.Translator.Translate(System.String)] Missing &lt;param name=&quot;input&quot;/&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:Vortex.Localizations] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:Vortex.Connector] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:Vortex.Connector.ValueTypes] Missing &lt;summary&gt; documentation [C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+  Processed 1067 topic(s)
+  189 warning(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+  ResolveArtLinksComponent: Copying media files...
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+Done Building Project &quot;C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:07.9054
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertCaution.png -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertNote.png -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertSecurity.png -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CFW.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CodeExample.png -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privclass.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privdelegate.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privenumeration.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privevent.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privextension.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privfield.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privinterface.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privmethod.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privproperty.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privstructure.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protclass.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protdelegate.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protenumeration.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protevent.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protextension.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protfield.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protinterface.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protmethod.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protoperator.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protproperty.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protstructure.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubclass.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubdelegate.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubenumeration.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubevent.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubextension.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubfield.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubinterface.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubmethod.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\puboperator.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubproperty.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubstructure.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\slMobile.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; C:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\_Footer.md
+    Last step completed in 00:00:00.1470
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating markdown content...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateMarkdownContent.proj]
+  500 topics generated
+  1000 topics generated
+  Finished generating 1067 topics
+  Copying content to output folder...
+  Copied 500 files
+  Copied 1000 files
+  Finished copying 1111 files
+    Last step completed in 00:00:02.2098
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.1620
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 2/27/2020 3:24:51 PM.  Total time: 00:00:14.7149
+
+</buildStep>
+</shfbBuild>
