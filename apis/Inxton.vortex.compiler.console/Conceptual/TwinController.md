@@ -3,7 +3,7 @@
 TwinController is the root object that represents the .net counterpart of the entire PLC project. It is the entry point to the PLC program objects. TwinController contains instances of all PRGs (Program POU) and GVLs (Global Variable Lists).
 
 ------------
-![tc3toInxton](../../assets/tc3-project_to_twin_controller.png)
+![tc3toInxton](../assets/tc3-project_to_twin_controller.png)
 ------------
 
 TwinController class is named by convention [PlcName]TwinController.

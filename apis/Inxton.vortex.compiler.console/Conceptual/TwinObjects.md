@@ -1,5 +1,6 @@
 # Twin objects
-![tc3toInxton](../../assets/tc3-inxton-app.png)
+
+![tc3toInxton](../assets/tc3-inxton-app.png)
 
 Twin object is .net representation of a complex PLC data type (STRUCT, UNION, FB, GVL, PRG). Each of these data structures is represented by a separate class of which name is the same as the name of the respective structure.
 
@@ -8,7 +9,8 @@ Each twin object implements two types of interfaces  *IOnline* interface which e
 There is a separate class *Plainer* that is produced during the trans-piling process which is light (POCO like) representation of the same data structure, that can be is used in scenarios involving serialization.
 
 ## Compiler
-![tc3toInxton](../../assets/TwinObjectDetail.png)
+
+![tc3toInxton](../assets/TwinObjectDetail.png)
 Compiler supports PLC program structures of following POU types:
 
 * [PROGRAM (PRG)](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/9007201785015179.html&id=930767890005286929)
@@ -22,9 +24,7 @@ Each of the mentioned is constructed and represented inside Inxton as several pa
 
 More about TwinCAT 3 data types can be found [here](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/126100792095762827.html&id=6124705676148460443).
 
-
 ><strong style="color:orange">NOTE</strong>: <span style="color:orange">FUNCTION (FUN) are not compiled as the data of function block are temporary.</span>
-
 
 The compiler supports Members of POU declared in sections as well:
   * VAR
@@ -36,12 +36,14 @@ Read more about the nature of TwinCAT 3 variable types and special variables is 
 ><strong style="color:orange">NOTE</strong>: <span style="color:orange">Sections VAR_IN_OUT, VAR_STAT, VAR_TEMP are not supported at this time. It should be also noted that variables declared in declaration sections of Methods and Functions are also not supported as they represent temporary variables. Variable in declaration sections of methods are not compiled even when declared within VAR_INST section.</span>
 
 ## Object approach and naming convention
+
 During the process of compilation, several partial classes and interfaces are being created. Each of the objects serves a specific purpose and its members are with a different relationship to PLC object.
 Having a Function block named FbPiston created at PLC side. The result of the compiler's effort is Onliner and Plain classes plus Online and Shadow interfaces. Please carefully analyze the sample below.
 
-![TwinObjectDetail](../../assets/onliner-shadow-plain.png)
+![TwinObjectDetail](../assets/onliner-shadow-plain.png)
 
-**PLC code**
+**PLC code:**
+
 ~~~ PASCAL
 FUNCTION_BLOCK fbPiston ...
 ~~~
@@ -140,4 +142,3 @@ plainDataStructure.TimeStamp = DateTime.Now();
 // Copy plainer back to Shadow.
 plainDataStructure.CopyPlainToShadow(MainPlc.MAIN.DataStructure);
 ~~~
-

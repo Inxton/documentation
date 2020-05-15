@@ -16,7 +16,7 @@ Each twin object implements two types of interfaces  *IOnline* interface which e
 
 There is a separate class *Plainer* that is produced during the trans-piling process which is light (POCO like) representation of the same data structure, that can be is used in scenarios involving serialization. [More about Twin Objects](TwinObjects.md)
 
-### [Primitive Twins](../../Inxton.Vortex.Connector/Conceptual/PrimitiveTwins.md)
+### [Primitive Twins](/apis/Inxton.Vortex.Connector/Conceptual/PrimitiveTwins.md)
 
 Primitive twins are special types of objects that represent base types. Each base type has its representation in Inxton.Vortex.Framework. Primitive Twins allows for Read and Write operations of the respective values. They also offer different ways of accessing the values: Cyclic, Synchronous, Batched. [More about Primitive Twins.](../../Inxton.Vortex.Connector/Conceptual/PrimitiveTwins.md)
 
@@ -33,8 +33,10 @@ STRUCT
 END_STRUCT
 END_TYPE
 ```
+
 Inxton will generate following Twin object.
-```C#
+
+~~~ C#
 public partial class stSettings : Vortex.Connector.IVortexObject, IstSettings, IShadowstSettings, Vortex.Connector.IVortexOnlineObject, Vortex.Connector.IVortexShadowObject
 {
     public string Symbol
@@ -107,5 +109,6 @@ public partial class stSettings : Vortex.Connector.IVortexObject, IstSettings, I
         }
     }
     // etc...
-```
+~~~
+
 In case you want to see the whole file it's here : [link to gist](http://bit.ly/2PLe3dE)
