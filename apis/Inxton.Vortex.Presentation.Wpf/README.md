@@ -171,13 +171,5 @@ Yes. follow here -> link niekde
 We are more than happy to hear your feedback, ideas!
 Just submit it [here](https://github.com/Inxton/Feedback/issues/new/choose)  
 
-# License
-
-TLDR
-
-> Developers are encouraged to use this project -  free of charge, although when you want to use it in production enviroment you need to go to  [INXTON.com](https://www.inxton.com/) and purchase a licence.
-
-to make our lawyers happy - read the whole licence agreement [here](https://github.com/Inxton/about/blob/master/license.md)
-
 ---
-Developed with ♥ at [MTS](https://www.mts.sk/) - putting the heart into manufacturing.
+Developed with ♥ at [MTS](https://www.mts.sk/en) - putting the heart into manufacturing.
