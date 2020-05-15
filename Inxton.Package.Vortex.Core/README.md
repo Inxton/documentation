@@ -33,15 +33,19 @@ Checkout the installation procedure as easy instruction video [here](/././common
 
 ## Getting started
 
-There are few options how to get started with Inxton. Poject can be created from scratch so you will discover all bells and whistles or you can simply grab one of our examples and enter into Inxton world more easier way.
+There are few options how to get started with Inxton. Poject can be created from scratch so you will discover all bells and whistles or you can simply grab one of our examples and enter into Inxton world easier way.
 
 ### Exploring examples
 
 Easiest way to get started is to use the examples and templates from [this repository](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core/).
 
+### New project template
+
+When you are already familiar with the framework you can [clone](https://github.com/Inxton/template.core.git) or [download](https://github.com/Inxton/template.core/archive/master.zip) the [template.core project](https://github.com/Inxton/template.core).
+
 ### Creating new project
 
-How to get started with new project see [here](/apis/Inxton.vortex.compiler.console/README.md#Getting-started)
+How to get started with new project from the scratch see [here](/apis/Inxton.vortex.compiler.console/README.md#Getting-started)
 
 See also
 
