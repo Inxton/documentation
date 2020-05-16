@@ -150,6 +150,8 @@ It inherits from `OnlinerBaseType`, so Inxton has few more options. It will try 
 
 Inxton will find this View in assembly `Vortex.Presentation.Controls.Wpf` and namespace `Vortex.Connector.ValueTypes`, and it will create it.
 
+# [API documentation](API/_Sidebar.md)
+
 # Need help?
 
 🧪 Create an issue [here](https://github.com/Inxton/Feedback/issues/new/choose)
