@@ -1,5 +1,5 @@
 # StringInterpolator Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 
 ## Methods

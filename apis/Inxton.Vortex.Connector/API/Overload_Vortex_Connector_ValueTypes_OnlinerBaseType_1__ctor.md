@@ -1,5 +1,5 @@
 # OnlinerBaseType(*T*) Constructor 
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 
 ## Overload List

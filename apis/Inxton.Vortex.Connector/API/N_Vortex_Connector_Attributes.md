@@ -1,8 +1,4 @@
 # Vortex.Connector.Attributes Namespace
- _**\[This is preliminary documentation and is subject to change.\]**_
-
-\[Missing <summary> documentation for "N:Vortex.Connector.Attributes"\]
-
 
 ## Classes
 &nbsp;<table><tr><th></th><th>Class</th><th>Description</th></tr><tr><td>![Public class](media/pubclass.gif "Public class")</td><td><a href="T_Vortex_Connector_Attributes_AssemblyPlcCounterPart.md">AssemblyPlcCounterPart</a></td><td>

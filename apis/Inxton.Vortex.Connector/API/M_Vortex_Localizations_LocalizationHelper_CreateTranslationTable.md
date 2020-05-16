@@ -1,9 +1,7 @@
 # LocalizationHelper.CreateTranslationTable Method (IEnumerable(String), List(Localizables))
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
-\[Missing <summary> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})"\]
-
-**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 0.101.0-alpha.5+Branch.develop.Sha.964441db673232ae7ce236ab6ff4c304c79df7be
+**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
 
 ## Syntax
 
@@ -17,10 +15,10 @@ public static List<Localizables> CreateTranslationTable(
 
 
 #### Parameters
-&nbsp;<dl><dt>input</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/9eekhta0" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>)<br />\[Missing <param name="input"/> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})"\]</dd><dt>list (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">System.Collections.Generic.List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)<br />\[Missing <param name="list"/> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})"\]</dd></dl>
+&nbsp;<dl><dt>input</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>)<br /></dd><dt>list (Optional)</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1" target="_blank">System.Collections.Generic.List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)<br /></dd></dl>
 
 #### Return Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)<br />\[Missing <returns> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})"\]
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1" target="_blank">List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)
 
 ## See Also
 

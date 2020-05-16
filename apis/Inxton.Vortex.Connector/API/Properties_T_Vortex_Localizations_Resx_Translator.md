@@ -1,5 +1,5 @@
 # Translator Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Localizations_Resx_Translator.md">Translator</a> type exposes the following members.
 

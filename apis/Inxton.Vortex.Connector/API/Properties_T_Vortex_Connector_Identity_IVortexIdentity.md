@@ -1,5 +1,5 @@
 # IVortexIdentity Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_Identity_IVortexIdentity.md">IVortexIdentity</a> type exposes the following members.
 

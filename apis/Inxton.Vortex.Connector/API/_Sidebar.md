@@ -1063,5 +1063,3 @@
         - [Translator Methods](Methods_T_Vortex_Localizations_Resx_Translator.md)
           - [Translator.Translate Method](M_Vortex_Localizations_Resx_Translator_Translate.md)
 - [Welcome to the Vortex.Connectors documentation](d558a0bb-be7e-4dc6-9f00-fa3b1eb6875b.md)
-- [Version History](d222d594-eadd-4d05-91fe-18eb0c3e98ae.md)
-  - [Version 1.0.0.0](63d6e5b0-c081-4815-b656-0f27ec960b1d.md)

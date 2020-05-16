@@ -1,8 +1,4 @@
-# Vortex.Connector.ValueTypes Namespace
- _**\[This is preliminary documentation and is subject to change.\]**_
-
-
-<a href="N_Vortex_Connector_ValueValidation.md">Vortex.Connector.ValueValidation</a> namespace contains types that provide access to the value tags of the PLC.
+# Vortex.Connector.ValueTypes Namespace<a href="N_Vortex_Connector_ValueValidation.md">Vortex.Connector.ValueValidation</a> namespace contains types that provide access to the value tags of the PLC.
 
 
 

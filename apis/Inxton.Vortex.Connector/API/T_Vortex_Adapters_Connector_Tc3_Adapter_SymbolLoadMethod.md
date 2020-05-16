@@ -1,9 +1,9 @@
 # SymbolLoadMethod Enumeration
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
-\[Missing <summary> documentation for "T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod"\]
+Enumerates symbol loading methods.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Adapters_Connector_Tc3_Adapter.md">Vortex.Adapters.Connector.Tc3.Adapter</a><br />**Assembly:**&nbsp;Vortex.Adapters.Connector.Tc3 (in Vortex.Adapters.Connector.Tc3.dll) Version: 0.101.0-alpha.5+Branch.develop.Sha.964441db673232ae7ce236ab6ff4c304c79df7be
+**Namespace:**&nbsp;<a href="N_Vortex_Adapters_Connector_Tc3_Adapter.md">Vortex.Adapters.Connector.Tc3.Adapter</a><br />**Assembly:**&nbsp;Vortex.Adapters.Connector.Tc3 (in Vortex.Adapters.Connector.Tc3.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
 
 ## Syntax
 
@@ -14,7 +14,9 @@ public enum SymbolLoadMethod
 
 
 ## Members
-&nbsp;<table><tr><th></th><th>Member name</th><th>Value</th><th>Description</th></tr><tr><td /><td target="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoReader">**SymbolInfoReader**</td><td>0</td><td /></tr><tr><td /><td target="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoLoader">**SymbolInfoLoader**</td><td>1</td><td /></tr></table>
+&nbsp;<table><tr><th></th><th>Member name</th><th>Value</th><th>Description</th></tr><tr><td /><td target="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoReader">**SymbolInfoReader**</td><td>0</td><td>Using symbol info loader.
+&nbsp;<table><tr><th>![Note](media/AlertNote.png) Note</th></tr><tr><td>Generally faster method for on the fly loading of the symbols.</td></tr></table></td></tr><tr><td /><td target="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoLoader">**SymbolInfoLoader**</td><td>1</td><td>Using symbol info reader.
+&nbsp;<table><tr><th>![Note](media/AlertNote.png) Note</th></tr><tr><td>Generally slower method suitable for small-mid size applications.</td></tr></table></td></tr></table>
 
 ## See Also
 

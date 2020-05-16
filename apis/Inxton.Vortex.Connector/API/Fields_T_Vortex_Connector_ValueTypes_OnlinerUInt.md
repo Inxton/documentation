@@ -1,5 +1,5 @@
 # OnlinerUInt Fields
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_ValueTypes_OnlinerUInt.md">OnlinerUInt</a> type exposes the following members.
 

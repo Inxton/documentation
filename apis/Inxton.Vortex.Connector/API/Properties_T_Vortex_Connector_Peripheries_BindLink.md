@@ -1,5 +1,5 @@
 # BindLink Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_Peripheries_BindLink.md">BindLink</a> type exposes the following members.
 

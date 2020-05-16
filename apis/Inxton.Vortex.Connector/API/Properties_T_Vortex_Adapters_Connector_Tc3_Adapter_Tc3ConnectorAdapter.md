@@ -1,5 +1,5 @@
 # Tc3ConnectorAdapter Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter.md">Tc3ConnectorAdapter</a> type exposes the following members.
 

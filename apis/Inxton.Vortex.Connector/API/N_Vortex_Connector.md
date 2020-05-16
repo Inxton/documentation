@@ -1,8 +1,4 @@
-# Vortex.Connector Namespace
- _**\[This is preliminary documentation and is subject to change.\]**_
-
-
-Vortex.Connector namespace groups building block of Vortex Connector that mediates the connectivity to the PLC for vortex framework application. It also provides multiple functions to manage the transfer of data between .net application and PLC system.
+# Vortex.Connector NamespaceVortex.Connector namespace groups building block of Vortex Connector that mediates the connectivity to the PLC for vortex framework application. It also provides multiple functions to manage the transfer of data between .net application and PLC system.
 
 
 

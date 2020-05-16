@@ -1,9 +1,7 @@
 # LocalizationHelper.CreateTranslationTables Method 
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
-\[Missing <summary> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)"\]
-
-**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 0.101.0-alpha.5+Branch.develop.Sha.964441db673232ae7ce236ab6ff4c304c79df7be
+**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
 
 ## Syntax
 
@@ -18,7 +16,7 @@ public static void CreateTranslationTables(
 
 
 #### Parameters
-&nbsp;<dl><dt>localizables</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/9eekhta0" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>)<br />\[Missing <param name="localizables"/> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)"\]</dd><dt>cultures</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/9eekhta0" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>)<br />\[Missing <param name="cultures"/> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)"\]</dd><dt>folder</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br />\[Missing <param name="folder"/> documentation for "M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)"\]</dd></dl>
+&nbsp;<dl><dt>localizables</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>)<br /></dd><dt>cultures</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>)<br /></dd><dt>folder</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">System.String</a><br /></dd></dl>
 
 ## See Also
 

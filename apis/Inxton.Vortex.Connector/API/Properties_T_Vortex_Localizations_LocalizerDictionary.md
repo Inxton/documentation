@@ -1,5 +1,5 @@
 # LocalizerDictionary Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Localizations_LocalizerDictionary.md">LocalizerDictionary</a> type exposes the following members.
 

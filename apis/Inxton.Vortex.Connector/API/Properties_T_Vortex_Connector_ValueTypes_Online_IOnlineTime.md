@@ -1,5 +1,5 @@
 # IOnlineTime Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_ValueTypes_Online_IOnlineTime.md">IOnlineTime</a> type exposes the following members.
 

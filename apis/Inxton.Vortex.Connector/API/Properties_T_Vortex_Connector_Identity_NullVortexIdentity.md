@@ -1,5 +1,5 @@
 # NullVortexIdentity Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_Identity_NullVortexIdentity.md">NullVortexIdentity</a> type exposes the following members.
 

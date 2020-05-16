@@ -1,9 +1,7 @@
 # ITranslator.Get Method 
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
-\[Missing <summary> documentation for "M:Vortex.Localizations.Abstractions.ITranslator.Get"\]
-
-**Namespace:**&nbsp;<a href="N_Vortex_Localizations_Abstractions.md">Vortex.Localizations.Abstractions</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 0.101.0-alpha.5+Branch.develop.Sha.964441db673232ae7ce236ab6ff4c304c79df7be
+**Namespace:**&nbsp;<a href="N_Vortex_Localizations_Abstractions.md">Vortex.Localizations.Abstractions</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
 
 ## Syntax
 
@@ -14,7 +12,7 @@ public static ITranslator Get()
 
 
 #### Return Value
-Type: <a href="T_Vortex_Localizations_Abstractions_ITranslator.md">ITranslator</a><br />\[Missing <returns> documentation for "M:Vortex.Localizations.Abstractions.ITranslator.Get"\]
+Type: <a href="T_Vortex_Localizations_Abstractions_ITranslator.md">ITranslator</a>
 
 ## See Also
 

@@ -1,5 +1,5 @@
 # IShadowUInt Events
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_ValueTypes_Shadows_IShadowUInt.md">IShadowUInt</a> type exposes the following members.
 

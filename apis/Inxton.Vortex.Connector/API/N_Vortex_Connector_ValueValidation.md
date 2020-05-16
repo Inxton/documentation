@@ -1,8 +1,4 @@
-# Vortex.Connector.ValueValidation Namespace
- _**\[This is preliminary documentation and is subject to change.\]**_
-
-
-Vortex.Connector.ValueValidation namespace contains validators for PLC's value tags.
+# Vortex.Connector.ValueValidation NamespaceVortex.Connector.ValueValidation namespace contains validators for PLC's value tags.
 
 
 

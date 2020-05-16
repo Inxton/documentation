@@ -1,8 +1,4 @@
-# Vortex.Connector.Reflections Namespace
- _**\[This is preliminary documentation and is subject to change.\]**_
-
-
-Vortex.Connector.Reflections Contais set of methods and extension methods to be reflect upon vortex framework types.
+# Vortex.Connector.Reflections NamespaceVortex.Connector.Reflections Contais set of methods and extension methods to be reflect upon vortex framework types.
 
 
 

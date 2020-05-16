@@ -1,5 +1,5 @@
 # DateValueValidationRule Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_ValueValidation_DateValueValidationRule.md">DateValueValidationRule</a> type exposes the following members.
 

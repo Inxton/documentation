@@ -1,5 +1,5 @@
 # IShadow(*T*) Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_ValueTypes_Shadows_IShadow_1.md">IShadow(T)</a> generic type exposes the following members.
 

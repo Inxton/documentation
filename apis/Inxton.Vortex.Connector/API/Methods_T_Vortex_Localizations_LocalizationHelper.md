@@ -1,5 +1,5 @@
 # LocalizationHelper Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Localizations_LocalizationHelper.md">LocalizationHelper</a> type exposes the following members.
 

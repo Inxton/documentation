@@ -1,5 +1,5 @@
 # ITranslator Properties
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Localizations_Abstractions_ITranslator.md">ITranslator</a> type exposes the following members.
 
