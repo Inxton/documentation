@@ -1,5 +1,5 @@
 # SelectedButtonConverter Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Presentation_Wpf_SelectedButtonConverter.md">SelectedButtonConverter</a> type exposes the following members.
 

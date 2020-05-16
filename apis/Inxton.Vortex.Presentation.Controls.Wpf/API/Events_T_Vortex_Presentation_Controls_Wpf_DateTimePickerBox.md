@@ -1,5 +1,5 @@
 # DateTimePickerBox Events
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Presentation_Controls_Wpf_DateTimePickerBox.md">DateTimePickerBox</a> type exposes the following members.
 

@@ -1,9 +1,9 @@
 # Renderer.GetEnumeratorDiscriminatorAttribute Method 
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
-\[Missing <summary> documentation for "M:Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)"\]
+Returns Enumerator description attribute for given member.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 0.112.0-alpha.12+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 
@@ -16,10 +16,10 @@ public EnumeratorDiscriminatorAttribute GetEnumeratorDiscriminatorAttribute(
 
 
 #### Parameters
-&nbsp;<dl><dt>vortexObject</dt><dd>Type: IVortexElement<br />\[Missing <param name="vortexObject"/> documentation for "M:Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)"\]</dd></dl>
+&nbsp;<dl><dt>vortexObject</dt><dd>Type: IVortexElement<br />Object on which the attribute will be searched.</dd></dl>
 
 #### Return Value
-Type: EnumeratorDiscriminatorAttribute<br />\[Missing <returns> documentation for "M:Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)"\]
+Type: EnumeratorDiscriminatorAttribute<br />
 
 ## See Also
 

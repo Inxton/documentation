@@ -1,7 +1,3 @@
-- [Welcome to the [TODO: Add project name]](827c8b0e-3d94-4555-97c8-b235bb295bc3.md)
-- [Automated UI rendering](f89438a0-b071-411f-9c91-3061a8156633.md)
-- [Version History](ad4277df-2318-450c-ac56-fb51ebf8696e.md)
-  - [Version 1.0.0.0](dc5e5635-0a5c-4218-a313-8ae7a6080ef0.md)
 - [API](R_Project_Vortex_Presentation_Wpf.md)
   - [Vortex.Presentation.Controls.Wpf.Enumerators Namespace](N_Vortex_Presentation_Controls_Wpf_Enumerators.md)
     - [EnumeratorContainer Class](T_Vortex_Presentation_Controls_Wpf_Enumerators_EnumeratorContainer.md)

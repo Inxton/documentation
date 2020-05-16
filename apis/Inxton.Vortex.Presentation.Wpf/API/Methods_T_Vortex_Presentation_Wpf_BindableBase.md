@@ -1,5 +1,5 @@
 # BindableBase Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Presentation_Wpf_BindableBase.md">BindableBase</a> type exposes the following members.
 

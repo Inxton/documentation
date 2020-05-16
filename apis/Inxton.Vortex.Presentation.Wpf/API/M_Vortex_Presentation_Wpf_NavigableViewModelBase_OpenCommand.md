@@ -1,9 +1,7 @@
 # NavigableViewModelBase.OpenCommand Method 
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
-\[Missing <summary> documentation for "M:Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)"\]
-
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 0.112.0-alpha.12+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 
@@ -16,7 +14,7 @@ public void OpenCommand(
 
 
 #### Parameters
-&nbsp;<dl><dt>navCommand</dt><dd>Type: <a href="T_Vortex_Presentation_Wpf_NavCommand.md">Vortex.Presentation.Wpf.NavCommand</a><br />\[Missing <param name="navCommand"/> documentation for "M:Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)"\]</dd></dl>
+&nbsp;<dl><dt>navCommand</dt><dd>Type: <a href="T_Vortex_Presentation_Wpf_NavCommand.md">Vortex.Presentation.Wpf.NavCommand</a><br /></dd></dl>
 
 #### Implements
 <a href="M_Vortex_Presentation_Wpf_INavigable_OpenCommand.md">INavigable.OpenCommand(NavCommand)</a><br />

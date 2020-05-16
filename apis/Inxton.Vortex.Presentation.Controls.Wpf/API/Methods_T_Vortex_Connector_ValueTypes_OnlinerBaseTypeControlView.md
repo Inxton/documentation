@@ -1,5 +1,5 @@
 # OnlinerBaseTypeControlView Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseTypeControlView.md">OnlinerBaseTypeControlView</a> type exposes the following members.
 

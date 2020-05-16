@@ -1,12 +1,9 @@
-# Renderer Class
- _**\[This is preliminary documentation and is subject to change.\]**_
-
-Renderer renders representation for object that derive IVortexObject or IValueTag
+# Renderer ClassRenderer renders representation for object that derive IVortexObject or IValueTag
 
 
 ## Inheritance Hierarchy
 <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;Vortex.Presentation.Wpf.Renderer<br />
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 0.112.0-alpha.12+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 
@@ -33,7 +30,8 @@ Creates presentation of IVortexObject or IValueTag of given presentation type.</
 Determines whether the specified object is equal to the current object.
  (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize#System_Object_Finalize" target="_blank">Finalize</a></td><td>
 Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetEnumeratorDiscriminatorAttribute.md">GetEnumeratorDiscriminatorAttribute</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode" target="_blank">GetHashCode</a></td><td>
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetEnumeratorDiscriminatorAttribute.md">GetEnumeratorDiscriminatorAttribute</a></td><td>
+Returns Enumerator description attribute for given member.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode" target="_blank">GetHashCode</a></td><td>
 Serves as the default hash function.
  (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetPropertyViaSymbol.md">GetPropertyViaSymbol</a></td><td>
 Locates property of IVortexObject via its symbol.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetReferencedAssemblies.md">GetReferencedAssemblies</a></td><td>
@@ -55,4 +53,4 @@ Returns a string that represents the current object.
 <a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf Namespace</a><br />
 
 #### Other Resources
-<a href="f89438a0-b071-411f-9c91-3061a8156633.md">Automated UI rendering</a><br />
+[f89438a0-b071-411f-9c91-3061a8156633]<br />

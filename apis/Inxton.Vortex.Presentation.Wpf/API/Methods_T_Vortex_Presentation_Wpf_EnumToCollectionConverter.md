@@ -1,5 +1,5 @@
 # EnumToCollectionConverter Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Presentation_Wpf_EnumToCollectionConverter.md">EnumToCollectionConverter</a> type exposes the following members.
 

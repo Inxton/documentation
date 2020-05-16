@@ -1,5 +1,5 @@
 # CreatorFailureDisplayBox Class
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 Displays failures from <a href="T_Vortex_Presentation_Wpf_Renderer.md">Renderer</a>.
 
@@ -8,7 +8,7 @@ CreatorFailureDisplayBox
 
 ## Inheritance Hierarchy
 <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject" target="_blank">System.Windows.Threading.DispatcherObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.dependencyobject" target="_blank">System.Windows.DependencyObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.media.visual" target="_blank">System.Windows.Media.Visual</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.uielement" target="_blank">System.Windows.UIElement</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.frameworkelement" target="_blank">System.Windows.FrameworkElement</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.controls.panel" target="_blank">System.Windows.Controls.Panel</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.controls.wrappanel" target="_blank">System.Windows.Controls.WrapPanel</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Presentation.Wpf.CreatorFailureDisplayBox<br />
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 0.112.0-alpha.12+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 

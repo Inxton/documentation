@@ -1,5 +1,5 @@
 # EnumeratorContainerControlView Events
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Presentation_Controls_Wpf_Enumerators_EnumeratorContainerControlView.md">EnumeratorContainerControlView</a> type exposes the following members.
 

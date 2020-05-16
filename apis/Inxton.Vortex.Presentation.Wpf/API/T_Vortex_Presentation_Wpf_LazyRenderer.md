@@ -1,12 +1,12 @@
 # LazyRenderer Class
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 Provides visual rendering that creates containers of which content is rendering delayed until the actual view is made visible.
 
 
 ## Inheritance Hierarchy
 <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;Vortex.Presentation.Wpf.LazyRenderer<br />
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 0.112.0-alpha.12+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 

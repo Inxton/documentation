@@ -1,5 +1,5 @@
 # OnlinerLTimeDisplayView Class
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 View for Onliner type which uses [!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayLTime]
 
@@ -8,7 +8,7 @@ OnlinerLTimeDisplayView
 
 ## Inheritance Hierarchy
 <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject" target="_blank">System.Windows.Threading.DispatcherObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.dependencyobject" target="_blank">System.Windows.DependencyObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.media.visual" target="_blank">System.Windows.Media.Visual</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.uielement" target="_blank">System.Windows.UIElement</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.frameworkelement" target="_blank">System.Windows.FrameworkElement</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.controls.control" target="_blank">System.Windows.Controls.Control</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.controls.contentcontrol" target="_blank">System.Windows.Controls.ContentControl</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.microsoft.com/dotnet/api/system.windows.controls.usercontrol" target="_blank">System.Windows.Controls.UserControl</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Connector.ValueTypes.OnlinerLTimeDisplayView<br />
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 0.10.1-alpha.9+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 

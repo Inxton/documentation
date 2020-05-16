@@ -1,5 +1,5 @@
 # Renderer Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Presentation_Wpf_Renderer.md">Renderer</a> type exposes the following members.
 
@@ -13,7 +13,8 @@ Creates presentation of IVortexObject or IValueTag of given presentation type.</
 Determines whether the specified object is equal to the current object.
  (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize#System_Object_Finalize" target="_blank">Finalize</a></td><td>
 Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetEnumeratorDiscriminatorAttribute.md">GetEnumeratorDiscriminatorAttribute</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode" target="_blank">GetHashCode</a></td><td>
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetEnumeratorDiscriminatorAttribute.md">GetEnumeratorDiscriminatorAttribute</a></td><td>
+Returns Enumerator description attribute for given member.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode" target="_blank">GetHashCode</a></td><td>
 Serves as the default hash function.
  (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetPropertyViaSymbol.md">GetPropertyViaSymbol</a></td><td>
 Locates property of IVortexObject via its symbol.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Presentation_Wpf_Renderer_GetReferencedAssemblies.md">GetReferencedAssemblies</a></td><td>

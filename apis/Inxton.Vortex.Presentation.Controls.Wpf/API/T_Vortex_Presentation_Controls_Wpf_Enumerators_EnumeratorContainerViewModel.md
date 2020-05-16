@@ -1,12 +1,10 @@
 # EnumeratorContainerViewModel Class
- _**\[This is preliminary documentation and is subject to change.\]**_
-
-\[Missing <summary> documentation for "T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel"\]
+ 
 
 
 ## Inheritance Hierarchy
 <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;BindableBase<br />&nbsp;&nbsp;&nbsp;&nbsp;RenderableViewModel<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Presentation_Controls_Wpf_Enumerators_EnumeratorContainerControlViewModel.md">Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Presentation_Controls_Wpf_Enumerators_EnumeratorContainerDisplayViewModel.md">Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Presentation_Controls_Wpf_Enumerators_EnumeratorContainerShadowControlViewModel.md">Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Presentation_Controls_Wpf_Enumerators_EnumeratorContainerShadowDisplayViewModel.md">Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel</a><br />
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Controls_Wpf_Enumerators.md">Vortex.Presentation.Controls.Wpf.Enumerators</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 0.10.1-alpha.9+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Controls_Wpf_Enumerators.md">Vortex.Presentation.Controls.Wpf.Enumerators</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 

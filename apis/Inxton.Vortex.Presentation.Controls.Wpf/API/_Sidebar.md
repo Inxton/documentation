@@ -1,6 +1,3 @@
-- [Automated UI rendering](f89438a0-b071-411f-9c91-3061a8156633.md)
-- [Version History](ad4277df-2318-450c-ac56-fb51ebf8696e.md)
-  - [Version 1.0.0.0](dc5e5635-0a5c-4218-a313-8ae7a6080ef0.md)
 - [API](R_Project_Vortex_Presentation_Controls_Wpf_Documentation.md)
   - [Vortex.Connector.ValueTypes Namespace](N_Vortex_Connector_ValueTypes.md)
     - [OnlinerBaseTypeControlView Class](T_Vortex_Connector_ValueTypes_OnlinerBaseTypeControlView.md)

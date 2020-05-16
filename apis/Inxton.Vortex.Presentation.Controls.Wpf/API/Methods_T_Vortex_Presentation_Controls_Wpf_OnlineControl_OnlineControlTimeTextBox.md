@@ -1,5 +1,5 @@
 # OnlineControlTimeTextBox Methods
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
 The <a href="T_Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeTextBox.md">OnlineControlTimeTextBox</a> type exposes the following members.
 

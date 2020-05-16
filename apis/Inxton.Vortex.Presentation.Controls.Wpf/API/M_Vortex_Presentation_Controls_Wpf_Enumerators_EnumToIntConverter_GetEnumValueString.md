@@ -1,9 +1,7 @@
 # EnumToIntConverter.GetEnumValueString Method 
- _**\[This is preliminary documentation and is subject to change.\]**_
+ 
 
-\[Missing <summary> documentation for "M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter.GetEnumValueString(System.Int16,Vortex.Connector.EnumeratorDiscriminatorAttribute)"\]
-
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Controls_Wpf_Enumerators.md">Vortex.Presentation.Controls.Wpf.Enumerators</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 0.10.1-alpha.9+Branch.develop.Sha.df20d7449a44daab5691c666370b08ce38564334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Controls_Wpf_Enumerators.md">Vortex.Presentation.Controls.Wpf.Enumerators</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
 
 ## Syntax
 
@@ -17,10 +15,10 @@ protected string GetEnumValueString(
 
 
 #### Parameters
-&nbsp;<dl><dt>enumMember</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.int16" target="_blank">System.Int16</a><br />\[Missing <param name="enumMember"/> documentation for "M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter.GetEnumValueString(System.Int16,Vortex.Connector.EnumeratorDiscriminatorAttribute)"\]</dd><dt>attr</dt><dd>Type: EnumeratorDiscriminatorAttribute<br />\[Missing <param name="attr"/> documentation for "M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter.GetEnumValueString(System.Int16,Vortex.Connector.EnumeratorDiscriminatorAttribute)"\]</dd></dl>
+&nbsp;<dl><dt>enumMember</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.int16" target="_blank">System.Int16</a><br /></dd><dt>attr</dt><dd>Type: EnumeratorDiscriminatorAttribute<br /></dd></dl>
 
 #### Return Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a><br />\[Missing <returns> documentation for "M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter.GetEnumValueString(System.Int16,Vortex.Connector.EnumeratorDiscriminatorAttribute)"\]
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>
 
 ## See Also
 
