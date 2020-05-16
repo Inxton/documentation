@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Vortex.Presentation.Controls.Wpf.Documentation.shfbproj" started="5/16/2020 8:35:32 AM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.8&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Markdown&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown&#39;
+Loading and initializing plug-ins...
+Assembly Binding Redirection Version 2020.3.6.0
+Copyright &#169; 2006-2020, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: c:\MTS\Develop\foxtroth\vortex.framework.presentation\src\wpf\Vortex.Presentation.Controls.Wpf\Vortex.Presentation.Controls.Wpf.csproj
+    Found project &#39;c:\MTS\Develop\foxtroth\vortex.framework.presentation\src\wpf\Vortex.Presentation.Controls.Wpf\Vortex.Presentation.Controls.Wpf.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;c:\MTS\Develop\foxtroth\vortex.framework.presentation\src\wpf\Vortex.Presentation.Controls.Wpf\bin\Release\Vortex.Presentation.Controls.Wpf.dll&#39;
+
+References to include:
+    Inxton.Licencing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3bf43df27f52305d, processorArchitecture=MSIL
+    MaterialDesignColors, Version=1.2.4.1361, Culture=neutral, processorArchitecture=MSIL
+    MaterialDesignThemes.Wpf, Version=3.1.1.1361, Culture=neutral, processorArchitecture=MSIL
+    Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL
+    Serilog.Sinks.Console, Version=3.1.1.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL
+    Serilog.Sinks.File, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL
+    System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    TwinCAT.Ads, Version=4.3.0.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL
+    Vortex.Adapters.Connector.Tc3, Version=0.112.0.0, Culture=neutral, PublicKeyToken=dfa781ee5783a74c, processorArchitecture=MSIL
+    Vortex.Connector, Version=0.112.0.0, Culture=neutral, PublicKeyToken=9f2602fd14098343, processorArchitecture=MSIL
+    Vortex.Framework.Abstractions, Version=0.103.0.0, Culture=neutral, PublicKeyToken=9f2602fd14098343, processorArchitecture=MSIL
+
+Copying XML comments files
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\src\wpf\Vortex.Presentation.Controls.Wpf\bin\Release\Vortex.Presentation.Controls.Wpf.xml -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Vortex.Presentation.Controls.Wpf.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+<plugIn name="Assembly Binding Redirection" behavior="Before" priority="1000">
+Adding ignored assembly names to assembly resolver configuration:
+    BusinessObjects.Licensing.KeycodeDecoder
+    Microsoft.VisualStudio.TestTools.UITest.Playback
+    PresentationCore
+    PresentationFramework
+    System
+    WindowsBase
+</plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 5/16/2020 8:35:33 AM.
+Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+_HandlePackageFileConflicts:
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39; and &#39;Platform:System.ValueTuple.dll&#39;.  NETSDK1033: Choosing &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39; because AssemblyVersion &#39;4.0.3.0&#39; is greater than &#39;4.0.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Platform:System.ValueTuple.dll&#39; and &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39;.  NETSDK1033: Choosing &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39; because AssemblyVersion &#39;4.0.3.0&#39; is greater than &#39;4.0.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateRefInfo.proj]
+GenerateBindingRedirects:
+  No suggested binding redirects from ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 116 dependency assemblies.
+  Wrote information on 8 namespaces, 63 types, and 135 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddXamlSyntaxData.xsl&#39;.
+Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:03.1078
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 5/16/2020 8:35:36 AM.
+Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.ungrouped&quot;.
+  AddNamespaceGroups (v2020.3.6.0)
+  Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
+  Added 1 namespace group entries
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:00:10.2141
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.5919
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.xml&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\*.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Vortex.Connector.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Vortex.Adapters.Connector.Tc3.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\TwinCAT.Ads.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\System.ValueTuple.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\System.Threading.Tasks.Extensions.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\System.Runtime.CompilerServices.Unsafe.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Serilog.Sinks.File.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Serilog.Sinks.Console.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Serilog.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\MaterialDesignThemes.Wpf.xml
+Indexing c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Vortex.Presentation.Controls.Wpf.xml
+Indexed 165560 members in 138 file(s).  11 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:01.6929
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\RenderAsDiagnosticsBase.PNG -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\RenderAsDiagnosticsBase.PNG
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\RenderAsDiagnosticsManual.PNG -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\RenderAsDiagnosticsManual.PNG
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\RenderCouterNoCustomView.PNG -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\RenderCouterNoCustomView.PNG
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\RenderedAsBase.PNG -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\RenderedAsBase.PNG
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\RenderedAsManual.PNG -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\RenderedAsManual.PNG
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\RendererConsumingExample.PNG -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\RendererConsumingExample.PNG
+    c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\ST01_RENDERING_EXAMPLE.PNG -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\ST01_RENDERING_EXAMPLE.PNG
+Generating conceptual topic files
+    Last step completed in 00:00:00.0410
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\icons\Help.png -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\icons\Help.png
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 5/16/2020 8:35:48 AM.
+Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:01.2909
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.3679
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 5/16/2020 8:35:50 AM.
+Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDate&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDate&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDateTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDateTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayLTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayLTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Connector.ValueTypes] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDate&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDate&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateShadowDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateShadowDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateTimeDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDateTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateTimeDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayDateTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLTimeDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayLTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLTimeDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayLTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeOfDayDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeOfDayDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeOfDayShadowDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeOfDayShadowDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeOfDay&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeShadowDisplayView] Unknown reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeShadowDisplayView] Invalid reference link target &#39;!:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTime&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox.attrib] Unknown reference link target &#39;T:TimeFormatAttribute&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.RenderableViewModel&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.RenderableViewModel&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.RenderableViewModel&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.RenderableViewModel&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.RenderableViewModel&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;P:Vortex.Presentation.Wpf.RenderableViewModel.Model&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;P:Vortex.Presentation.Wpf.RenderableViewModel.Model&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Events.T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel] Unknown reference link target &#39;T:Vortex.Presentation.Wpf.BindableBase&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumDiscriminatorAttribute] Unknown reference link target &#39;T:Vortex.Connector.EnumeratorDiscriminatorAttribute&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumeratorContainer] Unknown reference link target &#39;T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainer&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter.#ctor(Vortex.Connector.EnumeratorDiscriminatorAttribute)] Unknown reference link target &#39;T:Vortex.Connector.EnumeratorDiscriminatorAttribute&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter.GetEnumValueShort(System.String,Vortex.Connector.EnumeratorDiscriminatorAttribute)] Unknown reference link target &#39;T:Vortex.Connector.EnumeratorDiscriminatorAttribute&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter.GetEnumValueString(System.Int16,Vortex.Connector.EnumeratorDiscriminatorAttribute)] Unknown reference link target &#39;T:Vortex.Connector.EnumeratorDiscriminatorAttribute&#39;. [c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj]
+  Processed 393 topic(s)
+  110 warning(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 0 of 15.
+  ResolveArtLinksComponent: Copying media files...
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:28.6985
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0090
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertCaution.png -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertNote.png -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertSecurity.png -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CFW.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CodeExample.png -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privclass.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privdelegate.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privenumeration.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privevent.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privextension.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privfield.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privinterface.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privmethod.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privproperty.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privstructure.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protclass.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protdelegate.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protenumeration.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protevent.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protextension.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protfield.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protinterface.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protmethod.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protoperator.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protproperty.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protstructure.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubclass.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubdelegate.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubenumeration.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubevent.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubextension.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubfield.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubinterface.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubmethod.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\puboperator.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubproperty.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubstructure.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\slMobile.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; c:\MTS\Develop\foxtroth\vortex.framework.presentation\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\_Footer.md
+    Last step completed in 00:00:00.1760
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating markdown content...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateMarkdownContent.proj]
+  Finished generating 393 topics
+  Copying content to output folder...
+  Finished copying 437 files
+    Last step completed in 00:00:07.4613
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.1430
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 5/16/2020 8:36:26 AM.  Total time: 00:00:54.8242
+
+</buildStep>
+</shfbBuild>

@@ -1,0 +1,28 @@
+# RelayCommand(*T*) Constructor (Action(*T*), Func(*T*, Boolean), IVortexObject, String)
+ 
+
+Creates new instance of <a href="T_Vortex_Presentation_Wpf_RelayCommand.md">RelayCommand</a>.
+
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
+
+## Syntax
+
+**C#**<br />
+``` C#
+public RelayCommand(
+	Action<T> executeMethod,
+	Func<T, bool> canExecuteMethod = null,
+	IVortexObject callerObject = null,
+	string commandName = ""
+)
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>executeMethod</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.action-1" target="_blank">System.Action</a>(<a href="T_Vortex_Presentation_Wpf_RelayCommand_1.md">*T*</a>)<br />Method to be executed with this command.</dd><dt>canExecuteMethod (Optional)</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.func-2" target="_blank">System.Func</a>(<a href="T_Vortex_Presentation_Wpf_RelayCommand_1.md">*T*</a>, <a href="https://docs.microsoft.com/dotnet/api/system.boolean" target="_blank">Boolean</a>)<br />Can execute method determined whether this command can be executed.</dd><dt>callerObject (Optional)</dt><dd>Type: IVortexObject<br />Object that invoked this command.</dd><dt>commandName (Optional)</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">System.String</a><br />Optional command description of the command to enrich the logged data.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="T_Vortex_Presentation_Wpf_RelayCommand_1.md">RelayCommand(T) Class</a><br /><a href="Overload_Vortex_Presentation_Wpf_RelayCommand_1__ctor.md">RelayCommand(T) Overload</a><br /><a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf Namespace</a><br />
