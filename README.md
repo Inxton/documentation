@@ -51,4 +51,4 @@ We are more than happy to hear your feedback, ideas!
 Just submit it [here](https://github.com/Inxton/Feedback/issues/new/choose)  
 
 ---
-Developed with ♥ at [MTS](https://www.mts.sk/en) - putting the heart into manufacturing.
+Developed with ❤ at [MTS](https://www.mts.sk/en) - putting the heart into manufacturing.
