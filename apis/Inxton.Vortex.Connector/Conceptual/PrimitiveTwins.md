@@ -27,7 +27,7 @@ Each elementary/primitive/base type is represented by a twin wrapper object that
 | STRING          |  [OnlinerString Class](../API/T_Vortex_Connector_ValueTypes_OnlinerString.md) |
 | WSTRING          | [OnlinerWString Class](../API/T_Vortex_Connector_ValueTypes_OnlinerWString.md) |
 
-![primitive twins](../../assets/TwinObject.png)
+![primitive twins](../assets/TwinObject.png)
 
 ## Cyclic access
 
