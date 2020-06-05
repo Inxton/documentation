@@ -12,7 +12,7 @@ The controller twin is the root object that represents the entry point into a tw
 
 Twin object is .net representation of a complex PLC data type (STRUCT, UNION, FB, GVL, PRG). Each of these data structures is represented by a separate class of which name is the same as the name of the respective structure.
 
-Each twin object implements two types of interfaces  *IOnline* interface which exposes members with direct communication ability with the PLC system and IShadow interface with allows for an offline manipulation of object's data.
+Each twin object implements two types of interfaces  *IOnline* interface which exposes members with direct communication ability with the PLC system and *IShadow* interface with allows for an offline manipulation of object's data.
 
 There is a separate class *Plainer* that is produced during the trans-piling process which is light (POCO like) representation of the same data structure, that can be is used in scenarios involving serialization. [More about Twin Objects](TwinObjects.md)
 
