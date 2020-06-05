@@ -31,7 +31,29 @@ Compiled entities are called [*Twins*](Conceptual/Twins.md). There are three mai
 * [Ignoring unknown syntax constructions](Conceptual/IgnoringPartsOfCode.md)
 * [Fake attribute commenting](Conceptual/FakeComments.md)
 
+## Specific behavior
 
+### Case sensitivity
+
+In contrast to TwinCat3 project, inxton compiler takes into account letter casing. Take this fact into consideration, in particular when declaring variables, extending types. Declarations with inconsistent letter casing are considered unknown.
+
+### Arrays
+
+Compiler supports (uni-dimensional and multidimensional) arrays of which size is given by *numerical literal* and is zero-based ([0..10]). Arrays must be zero-based in order to maintain consistency with the C# code. Jagged arrays are not supported at this time.
+
+### Unknown types
+
+Whenever the compiler encounters a type that is unknown, it will not transpile that variable or extending type into the twin.
+
+Types implicitly known to the compiler are all primitive types, the types defined in the same project, and all those types that are added to the project as a library with its own .net twin library.
+
+Type `ANY` and `BIT` are considered unknown at this time.
+
+### Namespaces
+
+For types defined in external libraries, it is necessary to use namespace when declaring variables or when extending a type.
+
+The types external to the project must be declared with their respective namespace; otherwise, they are considered unknown.
 
 ## Getting started
 
