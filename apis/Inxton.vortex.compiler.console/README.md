@@ -39,7 +39,7 @@ In contrast to TwinCat3 project, inxton compiler takes into account letter casin
 
 ### Arrays
 
-Compiler supports (uni-dimensional and multidimensional) arrays of which size is given by *numerical literal* and is zero-based ([0..10]). Arrays must be zero-based in order to maintain consistency with the C# code. Jagged arrays are not supported at this time.
+Compiler supports (uni-dimensional and multidimensional) arrays of which size is given by a *numerical literal* or a *constant* and is zero-based ([0..10] or [0..cMaxArraySize]). Arrays must be zero-based in order to maintain consistency with the C# code. Jagged arrays are not supported at this time.
 
 ### Unknown types
 
