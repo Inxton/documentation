@@ -3,7 +3,7 @@
 
 Create representation of an object according the PresentationType
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
 
 ## Syntax
 
@@ -17,7 +17,7 @@ public static RenderableContentControl Create(
 
 
 #### Parameters
-&nbsp;<dl><dt>obj</dt><dd>Type: IVortexObject<br />IVortexObject to be rendered.</dd><dt>presentationType</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">System.String</a><br />Presentation type (e.g. 'Display', 'Control')</dd></dl>
+&nbsp;<dl><dt>obj</dt><dd>Type: IVortexObject<br />IVortexObject to be rendered.</dd><dt>presentationType</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br />Presentation type (e.g. 'Display', 'Control')</dd></dl>
 
 #### Return Value
 Type: <a href="T_Vortex_Presentation_Wpf_RenderableContentControl.md">RenderableContentControl</a><br />Rendered presentation of given object.

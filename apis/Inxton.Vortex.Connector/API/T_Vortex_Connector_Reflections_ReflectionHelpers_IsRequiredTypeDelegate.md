@@ -3,7 +3,7 @@
 
 Delegate to allow to determine that the type meets required conditions.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_Reflections.md">Vortex.Connector.Reflections</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_Reflections.md">Vortex.Connector.Reflections</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 
@@ -16,10 +16,10 @@ public delegate bool IsRequiredTypeDelegate(
 
 
 #### Parameters
-&nbsp;<dl><dt>type</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.type" target="_blank">System.Type</a><br />Type to check.</dd></dl>
+&nbsp;<dl><dt>type</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">System.Type</a><br />Type to check.</dd></dl>
 
 #### Return Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.boolean" target="_blank">Boolean</a><br />True when the type matches required conditions.
+Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a><br />True when the type matches required conditions.
 
 ## See Also
 

@@ -1,9 +1,9 @@
 # DummyConnectorFactory.CreateTIME_OF_DAY Method 
  
 
-Creates <a href="https://docs.microsoft.com/dotnet/api/system.timespan" target="_blank">TimeSpan</a> dummy tag of PLC value type TIME_OF_DAY (TOD)
+Creates <a href="http://msdn2.microsoft.com/en-us/library/269ew577" target="_blank">TimeSpan</a> dummy tag of PLC value type TIME_OF_DAY (TOD)
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 
@@ -18,7 +18,7 @@ public override OnlinerTimeOfDay CreateTIME_OF_DAY(
 
 
 #### Parameters
-&nbsp;<dl><dt>parent</dt><dd>Type: <a href="T_Vortex_Connector_IVortexObject.md">Vortex.Connector.IVortexObject</a><br />Parent object of <a href="T_Vortex_Connector_IVortexObject.md">IVortexObject</a> type.</dd><dt>readableTail</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">System.String</a><br />Human readable tail of this value tag.</dd><dt>symbolTail</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">System.String</a><br />Symbol tail of this value tag.</dd></dl>
+&nbsp;<dl><dt>parent</dt><dd>Type: <a href="T_Vortex_Connector_IVortexObject.md">Vortex.Connector.IVortexObject</a><br />Parent object of <a href="T_Vortex_Connector_IVortexObject.md">IVortexObject</a> type.</dd><dt>readableTail</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br />Human readable tail of this value tag.</dd><dt>symbolTail</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br />Symbol tail of this value tag.</dd></dl>
 
 #### Return Value
 Type: <a href="T_Vortex_Connector_ValueTypes_OnlinerTimeOfDay.md">OnlinerTimeOfDay</a><br />New instance of <a href="T_Vortex_Connector_ValueTypes_OnlinerTimeOfDay.md">OnlinerTimeOfDay</a>

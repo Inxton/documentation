@@ -1,7 +1,7 @@
 # NavigableViewModelBase.ShowInWindow Method 
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
 
 ## Syntax
 
@@ -14,10 +14,10 @@ public Window ShowInWindow(
 
 
 #### Parameters
-&nbsp;<dl><dt>content</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.windows.frameworkelement" target="_blank">System.Windows.FrameworkElement</a><br /></dd></dl>
+&nbsp;<dl><dt>content</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/ms602714" target="_blank">System.Windows.FrameworkElement</a><br /></dd></dl>
 
 #### Return Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.windows.window" target="_blank">Window</a>
+Type: <a href="http://msdn2.microsoft.com/en-us/library/ms590112" target="_blank">Window</a>
 
 ## See Also
 

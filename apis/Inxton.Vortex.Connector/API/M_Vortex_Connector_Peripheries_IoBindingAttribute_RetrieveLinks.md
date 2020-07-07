@@ -3,7 +3,7 @@
 
 Returns dictionary of links for given object.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_Peripheries.md">Vortex.Connector.Peripheries</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_Peripheries.md">Vortex.Connector.Peripheries</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 
@@ -17,10 +17,10 @@ public static IDictionary<string, PeripheryLink> RetrieveLinks(
 
 
 #### Parameters
-&nbsp;<dl><dt>obj</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />Object from which the links are to be retrieved.</dd><dt>links (Optional)</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2" target="_blank">System.Collections.Generic.IDictionary</a>(<a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>, <a href="T_Vortex_Connector_Peripheries_PeripheryLink.md">PeripheryLink</a>)<br />Pre-existing links.</dd></dl>
+&nbsp;<dl><dt>obj</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br />Object from which the links are to be retrieved.</dd><dt>links (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s4ys34ea" target="_blank">System.Collections.Generic.IDictionary</a>(<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>, <a href="T_Vortex_Connector_Peripheries_PeripheryLink.md">PeripheryLink</a>)<br />Pre-existing links.</dd></dl>
 
 #### Return Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2" target="_blank">IDictionary</a>(<a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>, <a href="T_Vortex_Connector_Peripheries_PeripheryLink.md">PeripheryLink</a>)<br />
+Type: <a href="http://msdn2.microsoft.com/en-us/library/s4ys34ea" target="_blank">IDictionary</a>(<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>, <a href="T_Vortex_Connector_Peripheries_PeripheryLink.md">PeripheryLink</a>)<br />
 
 ## See Also
 

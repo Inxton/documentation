@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Vortex.Connectors.Documentation.shfbproj" started="5/16/2020 7:48:37 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.6.24.0" projectFile="E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Vortex.Connectors.Documentation.shfbproj" started="7/6/2020 11:57:08 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Locating components in the following folder(s):
-    c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation
+    E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
 Using framework reflection data for &#39;Cross-platform (.NET Core/.NET Standard)&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
@@ -14,14 +14,14 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: c:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\Vortex.Connector.csproj
-    Found project &#39;c:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\Vortex.Connector.csproj&#39;
-Source: c:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Adapters.Connector.Tc3\Vortex.Adapters.Connector.Tc3.csproj
-    Found project &#39;c:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Adapters.Connector.Tc3\Vortex.Adapters.Connector.Tc3.csproj&#39;
+Source: E:\A1\w\2\s\src\connectors\Vortex.Connector\Vortex.Connector.csproj
+    Found project &#39;E:\A1\w\2\s\src\connectors\Vortex.Connector\Vortex.Connector.csproj&#39;
+Source: E:\A1\w\2\s\src\connectors\Vortex.Adapters.Connector.Tc3\Vortex.Adapters.Connector.Tc3.csproj
+    Found project &#39;E:\A1\w\2\s\src\connectors\Vortex.Adapters.Connector.Tc3\Vortex.Adapters.Connector.Tc3.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;c:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\bin\Release\netstandard2.0\Vortex.Connector.dll&#39;
-    Found assembly &#39;c:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Adapters.Connector.Tc3\bin\Release\netstandard2.0\Vortex.Adapters.Connector.Tc3.dll&#39;
+    Found assembly &#39;E:\A1\w\2\s\src\connectors\Vortex.Connector\bin\Release\netstandard2.0\Vortex.Connector.dll&#39;
+    Found assembly &#39;E:\A1\w\2\s\src\connectors\Vortex.Adapters.Connector.Tc3\bin\Release\netstandard2.0\Vortex.Adapters.Connector.Tc3.dll&#39;
 
 References to include:
     C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll
@@ -143,8 +143,7 @@ References to include:
     TwinCAT.Ads
 
 Copying XML comments files
-    C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\Vortex.Connector.xml -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Connector.xml
-    c:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Adapters.Connector.Tc3\bin\Release\netstandard2.0\Vortex.Adapters.Connector.Tc3.xml -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Adapters.Connector.Tc3.xml
+    C:\MTS\Develop\foxtroth\vortex.connectors\src\connectors\Vortex.Connector\Vortex.Connector.xml -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Connector.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
@@ -152,63 +151,63 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 5/16/2020 7:48:38 AM.
-Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Build started 7/6/2020 11:57:10 AM.
+Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 _HandlePackageFileConflicts:
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll&#39; and &#39;Platform:System.Diagnostics.Tracing.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Diagnostics.Tracing.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll&#39; and &#39;Platform:System.IO.Compression.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.IO.Compression.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.3.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll&#39; and &#39;Platform:System.Net.Http.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Net.Http.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll&#39; and &#39;Platform:System.Data.Common.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Data.Common.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll&#39; and &#39;Platform:System.Diagnostics.StackTrace.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Diagnostics.StackTrace.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.4.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll&#39; and &#39;Platform:System.Globalization.Extensions.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Globalization.Extensions.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll&#39; and &#39;Platform:System.Net.Sockets.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Net.Sockets.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll&#39; and &#39;Platform:System.Runtime.Serialization.Primitives.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Runtime.Serialization.Primitives.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.3.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll&#39; and &#39;Platform:System.Security.Cryptography.Algorithms.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Security.Cryptography.Algorithms.dll&#39; because AssemblyVersion &#39;4.3.0.0&#39; is greater than &#39;4.2.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll&#39; and &#39;Platform:System.Security.SecureString.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Security.SecureString.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.2.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll&#39; and &#39;Platform:System.Threading.Overlapped.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Threading.Overlapped.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll&#39; and &#39;Platform:System.Xml.XPath.XDocument.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Xml.XPath.XDocument.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll&#39; and &#39;Platform:System.Diagnostics.Tracing.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Diagnostics.Tracing.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll&#39; and &#39;Platform:System.IO.Compression.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.IO.Compression.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.3.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll&#39; and &#39;Platform:System.Net.Http.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Net.Http.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll&#39; and &#39;Platform:System.Data.Common.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Data.Common.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll&#39; and &#39;Platform:System.Diagnostics.StackTrace.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Diagnostics.StackTrace.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.4.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll&#39; and &#39;Platform:System.Globalization.Extensions.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Globalization.Extensions.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll&#39; and &#39;Platform:System.Net.Sockets.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Net.Sockets.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.2.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll&#39; and &#39;Platform:System.Runtime.Serialization.Primitives.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Runtime.Serialization.Primitives.dll&#39; because AssemblyVersion &#39;4.2.0.0&#39; is greater than &#39;4.1.3.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll&#39; and &#39;Platform:System.Security.Cryptography.Algorithms.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Security.Cryptography.Algorithms.dll&#39; because AssemblyVersion &#39;4.3.0.0&#39; is greater than &#39;4.2.2.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll&#39; and &#39;Platform:System.Security.SecureString.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Security.SecureString.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.2.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll&#39; and &#39;Platform:System.Threading.Overlapped.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Threading.Overlapped.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:C:\Program Files\dotnet\sdk\NuGetFallbackFolder\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll&#39; and &#39;Platform:System.Xml.XPath.XDocument.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Xml.XPath.XDocument.dll&#39; because AssemblyVersion &#39;4.1.0.0&#39; is greater than &#39;4.0.3.0&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj]
 GenerateBindingRedirects:
   No suggested binding redirects from ResolveAssemblyReferences.
 GenerateRefInfo:
-  MRefBuilder (v2020.3.6.0)
-  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  MRefBuilder (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 128 dependency assemblies.
-  Wrote information on 14 namespaces, 154 types, and 558 members
+  Wrote information on 15 namespaces, 156 types, and 563 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
-  XslTransform (v2020.3.6.0)
-  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:01.6646
+Done Building Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:01.0300
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 5/16/2020 7:48:40 AM.
-Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+Build started 7/6/2020 11:57:11 AM.
+Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
-  XslTransform (v2020.3.6.0)
-  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
   Copying file from &quot;reflection.xml&quot; to &quot;reflection.ungrouped&quot;.
-  AddNamespaceGroups (v2020.3.6.0)
-  Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
+  AddNamespaceGroups (v2019.6.24.0)
+  Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
   Added 3 namespace group entries
   Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
-  XslTransform (v2020.3.6.0)
-  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
     Unique name M_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter_Create_1 generated for M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)
     Unique name M_Vortex_Connector_ConnectorAdapter__ctor_1 generated for M:Vortex.Connector.ConnectorAdapter.#ctor(System.Type)
@@ -270,40 +269,39 @@ TransformManifest:
     Unique name M_Vortex_Localizations_LocalizationHelper_CreateTranslationTable_1 generated for M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})
     Unique name M_Vortex_Localizations_Abstractions_ITranslator_Get_1 generated for M:Vortex.Localizations.Abstractions.ITranslator.Get(System.Type)
     Unique name M_Vortex_Localizations_Resx_Translator__ctor_1 generated for M:Vortex.Localizations.Resx.Translator.#ctor(System.Type)
-  XslTransform (v2020.3.6.0)
-  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:01.2498
+Done Building Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:00:00.9470
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0740
+    Last step completed in 00:00:00.1660
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
-Sandcastle Help File Builder and Tools, version 2020.3.6.0
-Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
+Sandcastle Help File Builder and Tools, version 2019.6.24.0
+Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\*.xml
-Indexing c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\TwinCAT.Ads.xml
-Indexing c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.Sinks.File.xml
-Indexing c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.Sinks.Console.xml
-Indexing c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.xml
-Indexing c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Newtonsoft.Json.xml
-Indexing c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Connector.xml
-Indexing c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Adapters.Connector.Tc3.xml
-Indexed 166751 members in 134 file(s).  7 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexing E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\TwinCAT.Ads.xml
+Indexing E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.Sinks.File.xml
+Indexing E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.Sinks.Console.xml
+Indexing E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Serilog.xml
+Indexing E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Newtonsoft.Json.xml
+Indexing E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Vortex.Connector.xml
+Indexed 166832 members in 133 file(s).  6 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.1168
+    Last step completed in 00:00:01.1950
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -312,120 +310,120 @@ Checking for other token files...
 Checking for code snippets files...
 Copying images and creating the media map file...
 Generating conceptual topic files
-    Parsing topic file &#39;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\Welcome.aml&#39;
-    c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Content\Welcome.aml -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\ddueXml\d558a0bb-be7e-4dc6-9f00-fa3b1eb6875b.xml
-    Last step completed in 00:00:00.0090
+    Parsing topic file &#39;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Content\Welcome.aml&#39;
+    E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Content\Welcome.aml -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\ddueXml\d558a0bb-be7e-4dc6-9f00-fa3b1eb6875b.xml
+    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\icons\Help.png -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\icons\Help.png
-    Last step completed in 00:00:00.0020
+E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\icons\Help.png -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\icons\Help.png
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 5/16/2020 7:48:43 AM.
-Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Build started 7/6/2020 11:57:13 AM.
+Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
-  XslTransform (v2020.3.6.0)
-  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Done Building Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.7539
+    Last step completed in 00:00:00.2310
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1309
+    Last step completed in 00:00:00.1880
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\sandcastle.config
+E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 5/16/2020 7:48:43 AM.
-Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+Build started 7/6/2020 11:57:13 AM.
+Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
-  BuildAssembler (v2020.3.6.0)
-  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  BuildAssembler (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Connector.IConnector.Logger] Unknown reference link target &#39;T:Serilog.ILogger&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerBaseType`1] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerBaseType`1] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Edit] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerBool] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerBool] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerByte] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerByte] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDate] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDate] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDateTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeOfDay] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerTimeOfDay] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerULInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerULInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerWString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerWString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
-  Processed 1065 topic(s)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Connector.IConnector.Logger] Unknown reference link target &#39;T:Serilog.ILogger&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerBaseType`1] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerBaseType`1] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Edit] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerBool] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerBool] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerByte] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerByte] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDate] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDate] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDateTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDateTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerDWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerDWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerLWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerLWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerReal] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerTime] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerTimeOfDay] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerTimeOfDay] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUDInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerULInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerULInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerUSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerUSInt] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerWord] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Connector.ValueTypes.OnlinerWString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:Vortex.Connector.ValueTypes.OnlinerWString] Unknown reference link target &#39;M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)&#39;. [E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj]
+  Processed 1074 topic(s)
   48 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
-Done Building Project &quot;c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:07.8844
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+Done Building Project &quot;E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:09.4541
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -433,48 +431,48 @@ Combining conceptual and API intermediate TOC files...
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertCaution.png -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertNote.png -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertSecurity.png -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CFW.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CodeExample.png -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privclass.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privdelegate.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privenumeration.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privevent.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privextension.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privfield.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privinterface.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privmethod.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privproperty.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privstructure.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protclass.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protdelegate.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protenumeration.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protevent.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protextension.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protfield.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protinterface.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protmethod.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protoperator.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protproperty.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protstructure.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubclass.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubdelegate.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubenumeration.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubevent.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubextension.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubfield.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubinterface.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubmethod.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\puboperator.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubproperty.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubstructure.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\slMobile.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; c:\MTS\Develop\foxtroth\vortex.connectors\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\_Footer.md
-    Last step completed in 00:00:00.1460
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertCaution.png -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertNote.png -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertSecurity.png -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CFW.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CodeExample.png -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privclass.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privdelegate.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privenumeration.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privevent.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privextension.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privfield.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privinterface.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privmethod.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privproperty.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privstructure.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protclass.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protdelegate.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protenumeration.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protevent.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protextension.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protfield.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protinterface.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protmethod.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protoperator.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protproperty.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protstructure.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubclass.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubdelegate.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubenumeration.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubevent.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubextension.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubfield.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubinterface.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubmethod.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\puboperator.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubproperty.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubstructure.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\slMobile.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\media\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; E:\A1\w\2\s\Doc\Vortex.Connectors.Documentation\Help\Working\Output\Markdown\_Footer.md
+    Last step completed in 00:00:00.1310
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
@@ -482,27 +480,27 @@ Executing informational Generate Table of Contents build step for plug-ins (not 
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Generating markdown content...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateMarkdownContent.proj]
   500 topics generated
   1000 topics generated
-  Finished generating 1065 topics
+  Finished generating 1074 topics
   Copying content to output folder...
   Copied 500 files
   Copied 1000 files
-  Finished copying 1109 files
-    Last step completed in 00:00:02.5085
+  Finished copying 1118 files
+    Last step completed in 00:00:01.7980
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1849
+    Last step completed in 00:00:00.3220
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 5/16/2020 7:48:54 AM.  Total time: 00:00:16.9146
+Build completed successfully at 7/6/2020 11:57:25 AM.  Total time: 00:00:17.0092
 
 </buildStep>
 </shfbBuild>

@@ -1,7 +1,7 @@
 # ActionRunner.Execute Method 
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
 
 ## Syntax
 
@@ -16,7 +16,7 @@ public void Execute(
 
 
 #### Parameters
-&nbsp;<dl><dt>action</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.action" target="_blank">System.Action</a><br /></dd><dt>info (Optional)</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">System.String</a><br /></dd><dt>userApproval (Optional)</dt><dd>Type: <a href="T_Vortex_Presentation_Wpf_ActionRunner_UserApprovedActionDelegate.md">Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate</a><br /></dd></dl>
+&nbsp;<dl><dt>action</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/bb534741" target="_blank">System.Action</a><br /></dd><dt>info (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br /></dd><dt>userApproval (Optional)</dt><dd>Type: <a href="T_Vortex_Presentation_Wpf_ActionRunner_UserApprovedActionDelegate.md">Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate</a><br /></dd></dl>
 
 ## See Also
 

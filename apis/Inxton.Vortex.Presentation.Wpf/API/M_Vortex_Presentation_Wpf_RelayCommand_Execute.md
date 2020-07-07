@@ -1,7 +1,7 @@
 # RelayCommand.Execute Method 
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
 
 ## Syntax
 
@@ -14,10 +14,10 @@ public void Execute(
 
 
 #### Parameters
-&nbsp;<dl><dt>parameter</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br /></dd></dl>
+&nbsp;<dl><dt>parameter</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br /></dd></dl>
 
 #### Implements
-<a href="https://docs.microsoft.com/dotnet/api/system.windows.input.icommand.execute#System_Windows_Input_ICommand_Execute_System_Object_" target="_blank">ICommand.Execute(Object)</a><br />
+<a href="http://msdn2.microsoft.com/en-us/library/ms604094" target="_blank">ICommand.Execute(Object)</a><br />
 
 ## See Also
 

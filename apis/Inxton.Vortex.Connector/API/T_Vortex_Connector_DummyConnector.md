@@ -5,8 +5,8 @@ Provides a connector without real target system connections.
 
 
 ## Inheritance Hierarchy
-<a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="T_Vortex_Connector_RootVortexerObject.md">Vortex.Connector.RootVortexerObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Connector_IConnector.md">Vortex.Connector.IConnector</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Connector.DummyConnector<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Connector_InvalidLicenseConnector.md">Vortex.Connector.InvalidLicenseConnector</a><br />
-**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+<a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="T_Vortex_Connector_RootVortexerObject.md">Vortex.Connector.RootVortexerObject</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Connector_IConnector.md">Vortex.Connector.IConnector</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Connector.DummyConnector<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Connector_InvalidLicenseConnector.md">Vortex.Connector.InvalidLicenseConnector</a><br />
+**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 
@@ -68,42 +68,42 @@ Adds child object to this root object.
 Adds value tag to this root object.
  (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_DummyConnector_BuildAndStart.md">BuildAndStart</a></td><td>
 This method does not have effect on DummyConnector
- (Overrides <a href="M_Vortex_Connector_IConnector_BuildAndStart.md">IConnector.BuildAndStart()</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_" target="_blank">Equals</a></td><td>
+ (Overrides <a href="M_Vortex_Connector_IConnector_BuildAndStart.md">IConnector.BuildAndStart()</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td>
 Determines whether the specified object is equal to the current object.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize#System_Object_Finalize" target="_blank">Finalize</a></td><td>
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a></td><td>
 Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetChildren.md">GetChildren</a></td><td>
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetChildren.md">GetChildren</a></td><td>
 Get list for this root object.
  (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetConnector.md">GetConnector</a></td><td>
 Get the instance of connector of this root object.
- (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode" target="_blank">GetHashCode</a></td><td>
+ (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td>
 Serves as the default hash function.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetParent.md">GetParent</a></td><td>
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetParent.md">GetParent</a></td><td>
 Gets this instance as parent object.
  (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetSymbolTail.md">GetSymbolTail</a></td><td>
 Get symbol tail of this object.
- (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType" target="_blank">GetType</a></td><td>
-Gets the <a href="https://docs.microsoft.com/dotnet/api/system.type" target="_blank">Type</a> of the current instance.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetValueTags.md">GetValueTags</a></td><td>
+ (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td>
+Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_RootVortexerObject_GetValueTags.md">GetValueTags</a></td><td>
 Gets value tags of this root object.
  (Inherited from <a href="T_Vortex_Connector_RootVortexerObject.md">RootVortexerObject</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_DummyConnector_InvokeRpc.md">InvokeRpc</a></td><td>
 This method does not have effect on DummyConnector
- (Overrides <a href="M_Vortex_Connector_IConnector_InvokeRpc.md">IConnector.InvokeRpc(String, String, Object[])</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone" target="_blank">MemberwiseClone</a></td><td>
-Creates a shallow copy of the current <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_DummyConnector_ReadBatch.md">ReadBatch</a></td><td>
+ (Overrides <a href="M_Vortex_Connector_IConnector_InvokeRpc.md">IConnector.InvokeRpc(String, String, Object[])</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td>
+Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_DummyConnector_ReadBatch.md">ReadBatch</a></td><td>
 Reads batch of value items from the plc.
  (Overrides <a href="M_Vortex_Connector_IConnector_ReadBatch.md">IConnector.ReadBatch(IEnumerable(IValueTag))</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_DummyConnector_ReloadConnector.md">ReloadConnector</a></td><td>
 This method does not have effect on dummy connector.
- (Overrides <a href="M_Vortex_Connector_IConnector_ReloadConnector.md">IConnector.ReloadConnector()</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString" target="_blank">ToString</a></td><td>
+ (Overrides <a href="M_Vortex_Connector_IConnector_ReloadConnector.md">IConnector.ReloadConnector()</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td>
 Returns a string that represents the current object.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_DummyConnector_WriteBatch.md">WriteBatch</a></td><td>
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_DummyConnector_WriteBatch.md">WriteBatch</a></td><td>
 Writes batch of value items to the plc.
  (Overrides <a href="M_Vortex_Connector_IConnector_WriteBatch.md">IConnector.WriteBatch(IEnumerable(IValueTag))</a>.)</td></tr></table>&nbsp;
 <a href="#dummyconnector-class">Back to Top</a>
 
 ## Events
 &nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public event](media/pubevent.gif "Public event")</td><td><a href="E_Vortex_Connector_IConnector_PropertyChanged.md">PropertyChanged</a></td><td>
-Implementation of <a href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank">INotifyPropertyChanged</a>
+Implementation of <a href="http://msdn2.microsoft.com/en-us/library/ms133020" target="_blank">INotifyPropertyChanged</a>
  (Inherited from <a href="T_Vortex_Connector_IConnector.md">IConnector</a>.)</td></tr></table>&nbsp;
 <a href="#dummyconnector-class">Back to Top</a>
 

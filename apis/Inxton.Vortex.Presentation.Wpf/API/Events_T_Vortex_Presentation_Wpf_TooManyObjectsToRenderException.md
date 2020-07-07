@@ -5,9 +5,9 @@ The <a href="T_Vortex_Presentation_Wpf_TooManyObjectsToRenderException.md">TooMa
 
 
 ## Events
-&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Protected event](media/protevent.gif "Protected event")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.exception.serializeobjectstate" target="_blank">SerializeObjectState</a></td><td>
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Protected event](media/protevent.gif "Protected event")</td><td><a href="http://msdn2.microsoft.com/en-us/library/ee332915" target="_blank">SerializeObjectState</a></td><td>
 Occurs when an exception is serialized to create an exception state object that contains serialized data about the exception.
- (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception" target="_blank">Exception</a>.)</td></tr></table>&nbsp;
+ (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/c18k6c59" target="_blank">Exception</a>.)</td></tr></table>&nbsp;
 <a href="#toomanyobjectstorenderexception-events">Back to Top</a>
 
 ## See Also

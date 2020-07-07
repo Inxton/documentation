@@ -3,7 +3,7 @@
 
 Gets or sets error counter of the adapter.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 
@@ -14,7 +14,7 @@ public override int ErrorCount { get; set; }
 
 
 #### Property Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.int32" target="_blank">Int32</a>
+Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a>
 
 ## See Also
 

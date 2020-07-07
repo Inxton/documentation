@@ -3,7 +3,7 @@
 
 Adds child value tag to the list of value tags of this object. <a href="M_Vortex_Connector_IVortexObject_GetValueTags.md">GetValueTags()</a>
 &nbsp;<table><tr><th>![Note](media/AlertNote.png) Note</th></tr><tr><td>This method is used by the objects built in building process. Not to be used by framework consumers.</td></tr></table>&nbsp;
-**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 

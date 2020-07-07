@@ -1,7 +1,7 @@
 # Localizables.Translation Property 
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 
@@ -12,7 +12,7 @@ public string Translation { get; set; }
 
 
 #### Property Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>
+Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>
 
 ## See Also
 

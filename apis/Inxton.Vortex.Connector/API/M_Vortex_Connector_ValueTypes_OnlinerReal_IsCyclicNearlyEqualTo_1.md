@@ -3,7 +3,7 @@
 
 Determines whether this 'Cyclic' value is nearly equal to number argument.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 
@@ -17,10 +17,10 @@ public bool IsCyclicNearlyEqualTo(
 
 
 #### Parameters
-&nbsp;<dl><dt>number</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.single" target="_blank">System.Single</a><br />Number to compare.</dd><dt>epsilon</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.single" target="_blank">System.Single</a><br />Precision.</dd></dl>
+&nbsp;<dl><dt>number</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/3www918f" target="_blank">System.Single</a><br />Number to compare.</dd><dt>epsilon</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/3www918f" target="_blank">System.Single</a><br />Precision.</dd></dl>
 
 #### Return Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.boolean" target="_blank">Boolean</a><br />True when 'Cyclic' is nearly equal.
+Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a><br />True when 'Cyclic' is nearly equal.
 
 ## See Also
 

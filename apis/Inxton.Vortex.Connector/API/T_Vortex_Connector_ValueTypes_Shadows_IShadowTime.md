@@ -1,9 +1,9 @@
 # IShadowTime Interface
  
 
-Defines contract to access shadow value of <a href="https://docs.microsoft.com/dotnet/api/system.timespan" target="_blank">TimeSpan</a>; TIME type of the PLC.
+Defines contract to access shadow value of <a href="http://msdn2.microsoft.com/en-us/library/269ew577" target="_blank">TimeSpan</a>; TIME type of the PLC.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes_Shadows.md">Vortex.Connector.ValueTypes.Shadows</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.0.0+Branch.master.Sha.24c869c7af4ddc9e28426985d5ac87eee1422bb2
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes_Shadows.md">Vortex.Connector.ValueTypes.Shadows</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
 
 ## Syntax
 

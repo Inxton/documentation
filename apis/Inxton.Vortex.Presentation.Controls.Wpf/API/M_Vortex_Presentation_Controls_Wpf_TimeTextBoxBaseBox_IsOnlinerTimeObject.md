@@ -1,7 +1,7 @@
 # TimeTextBoxBaseBox.IsOnlinerTimeObject Method 
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Controls_Wpf.md">Vortex.Presentation.Controls.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 1.0.0+Branch.master.Sha.658e94e25938e728e69fddb982274f5d67237334
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Controls_Wpf.md">Vortex.Presentation.Controls.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
 
 ## Syntax
 
@@ -14,10 +14,10 @@ protected bool IsOnlinerTimeObject(
 
 
 #### Parameters
-&nbsp;<dl><dt>obj</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br /></dd></dl>
+&nbsp;<dl><dt>obj</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br /></dd></dl>
 
 #### Return Value
-Type: <a href="https://docs.microsoft.com/dotnet/api/system.boolean" target="_blank">Boolean</a>
+Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a>
 
 ## See Also
 
