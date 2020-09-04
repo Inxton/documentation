@@ -1,0 +1,17 @@
+# stMimeMessage Properties
+ 
+
+The <a href="T_VortexBase_stMimeMessage.md">stMimeMessage</a> type exposes the following members.
+
+
+## Properties
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_AttributeName.md">AttributeName</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_Category.md">Category</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="P_VortexBase_stMessage_Connector.md">Connector</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_Cycle.md">Cycle</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_ExpectDequeing.md">ExpectDequeing</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_HumanReadable.md">HumanReadable</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_Identity.md">Identity</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_LightMessage.md">LightMessage</a></td><td>
+Gets the message as Plain object (POCO like object).
+ (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="P_VortexBase_stMessage_Parent.md">Parent</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_Symbol.md">Symbol</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Protected property](media/protproperty.gif "Protected property")</td><td><a href="P_VortexBase_stMessage_SymbolTail.md">SymbolTail</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_Text.md">Text</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr><tr><td>![Public property](media/pubproperty.gif "Public property")</td><td><a href="P_VortexBase_stMessage_TimeStamp.md">TimeStamp</a></td><td> (Inherited from <a href="T_VortexBase_stMessage.md">stMessage</a>.)</td></tr></table>&nbsp;
+<a href="#stmimemessage-properties">Back to Top</a>
+
+## See Also
+
+
+#### Reference
+<a href="T_VortexBase_stMimeMessage.md">stMimeMessage Class</a><br /><a href="N_VortexBase.md">VortexBase Namespace</a><br />
