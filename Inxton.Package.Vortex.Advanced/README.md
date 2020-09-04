@@ -24,6 +24,24 @@ Make sure you have everything you need to start using examples in this repositor
 
 If you are not familiar with INXTON, make sure you understand the basics [Inxton.Package.Vortex.Core](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core/).
 
+## Setup PLC
+Create a function block which will extend from `VortexBase.fbVortexApp`. This will be the root of the application.
+```
+FUNCTION_BLOCK fbApp EXTENDS VortexBase.fbVortexApp 
+```
+It has to override method `Main`. This method is the cyclic root of the code.
+`METHOD PROTECTED Main`
+
+In your `PROGRAM` create an instance of the function block and run it with the AMS ID of your PLC.
+```PASCAL
+PROGRAM MAIN
+VAR
+	App :fbApp;
+END_VAR
+---
+App.Run('851');
+```
+
 ## Required NuGet packages
 
 Make sure you install the following NuGet packages.
@@ -47,7 +65,49 @@ Install-Package Inxton.Package.Vortex.Advanced.Wpf
 Get your free developer license [here](/common/LicenseInstallation.md).
 
 ## How to invoke C# code from PLC
-** TODO **
+
+In your PLC project create an instance of `fbRemoteExec`
+```pascal
+FUNCTION_BLOCK fbApp EXTENDS VortexBase.fbVortexApp 
+VAR
+	CSharp : VortexBase.fbRemoteExec;
+	Counter : INT;
+END_VAR 
+-------
+Counter := Counter +1;
+IF Counter > 100 THEN
+  CSharp.Invoke();
+END_IF
+```
+Run the Inxton builder.
+In your C# Code
+```csharp
+private static fbApp MAIN;
+
+static void Main(string[] args)
+{
+    Entry.Plc.Connector.BuildAndStart();
+    MAIN = Entry.Plc.MAIN.App;
+    MAIN.CSharp.Initialize(MethodToExecuteWhenInvokeIsCalledInPlc);
+    Console.ReadKey();
+}
+
+private static bool MethodToExecuteWhenInvokeIsCalledInPlc()
+{
+    Console.WriteLine("Invoked from PLC");
+    MAIN.Counter.Cyclic = 0;
+    return true;
+}
+}
+```
+### Results
+
+![inxton breakpoint plc project](Assets/invoked_from_plc.gif)
+
+#### Breakpoint work too!
+![inxton breakpoint plc project](Assets/breakpoint.gif)
+
+
 ## How to use diagnostics tools
 ** TODO **
 ## How to create a component
