@@ -33,7 +33,7 @@ Checkout the installation procedure as easy instruction video [here](/././common
 
 ## Getting started
 
-There are few options how to get started with Inxton. Poject can be created from scratch so you will discover all bells and whistles or you can simply grab one of our examples and enter into Inxton world easier way.
+There are few options how to get started with Inxton. Project can be created from scratch so you will discover all bells and whistles or you can simply grab one of our examples and enter into Inxton world easier way.
 
 ### Exploring examples
 
