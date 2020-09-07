@@ -174,12 +174,43 @@ After you select another message you can see that the source of the message upda
 #### Logged in
 ![inxton logged in user with visible control](Assets/logged_in.png)
 
-## How to add user and roles
+## How to add users and roles
 
 You can either use the code API in `Vortex.Framework.Security.SecurityManager` or user interface.
 Create  `<vortex:UserManagementView></vortex:UserManagementView>`  in XAML after you create SecurityManager.
 ### Result
 ![inxton security manager](Assets/user_roles.png)
+
+
+## How to use command to invoke an action
+
+In object-oriented programming, the command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time. [wiki](https://en.wikipedia.org/wiki/Command_pattern)
+
+Let's use a command to invoke some C# code.  
+
+```
+FUNCTION_BLOCK fbApp EXTENDS VortexBase.fbVortexApp
+VAR
+	{attribute addProperty Name "Show alert"}
+	RunRemoteExec : VortexBase.fbCommand;
+	AlertDialog : VortexBase.fbRemoteExec;
+END_VAR
+--- METHOD PROTECTED Main
+IF RunRemoteExec.Monitor() THEN               // monitor if the command has been invoked
+	IF AlertDialog.Invoke() THEN          // if so, execute the task
+		RunRemoteExec.Complete();     // after the task is completed, mark the command as completed.
+	END_IF
+END_IF
+```
+
+In C# XAML code 
+
+```xml
+<vortex:RenderableContentControl DataContext="{Binding MAIN.App.RunRemoteExec}" />
+```
+
+### Result
+![command alert ](Assets/command_alert.gif)
 
 ## New project template
 
