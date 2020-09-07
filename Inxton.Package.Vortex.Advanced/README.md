@@ -157,10 +157,23 @@ When you click on the message you can see the **source** of the message. In this
 After you select another message you can see that the source of the message updates as well. You can also immediately use the auto-generated UI of the component. If you created your view for the structure it will display accordingly. 
 ![diagnostic view of second object](Assets/diagnostic_two.png)
 
-## How to create a component
-** TODO **
 ## How to protect your app from unauthorized user
-** TODO **
+### How to implement login/logout
+
+- You need to implement `IRepository<UserData>` to work with your user data. [example implementaion](https://github.com/Inxton/template.advanced/blob/master/src/WpfApp/UserFileRepository.cs)
+
+- Create a SecurityManager with the user repostory [like we did in this example](https://github.com/Inxton/template.advanced/blob/3d9d7b7cd7f623b2ac93a3250d0e6efdc8b76df6/src/WpfApp/MainWindowModel.cs#L18)
+
+- Login using the code `SecurityManager.Manager.Service.AuthenticateUser("user", "pass");` or via user interface.
+
+- Wrap the user control  in ` <vortex:PermissionBox Permissions="specify|permission|that|can|see|this|box">` like we [did here](https://github.com/Inxton/template.advanced/blob/3d9d7b7cd7f623b2ac93a3250d0e6efdc8b76df6/src/WpfApp/MainWindow.xaml#L25)
+
+### Result
+#### Logged out
+![inxton logged out user with hidden control](Assets/logged_out.png)
+#### Logged in
+![inxton logged in user with visible control](Assets/logged_in.png)
+
 ## How to add user and roles
 ** TODO **
 
