@@ -175,7 +175,11 @@ After you select another message you can see that the source of the message upda
 ![inxton logged in user with visible control](Assets/logged_in.png)
 
 ## How to add user and roles
-** TODO **
+
+You can either use the code API in `Vortex.Framework.Security.SecurityManager` or user interface.
+Create  `<vortex:UserManagementView></vortex:UserManagementView>`  in XAML after you create SecurityManager.
+### Result
+![inxton security manager](Assets/user_roles.png)
 
 ## New project template
 
