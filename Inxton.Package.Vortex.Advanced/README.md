@@ -39,7 +39,7 @@ VAR
 	App :fbApp;
 END_VAR
 ---
-App.Run('851');
+App.Run('10.10.10.1.1.1'); // AMS ID of the system wich provides time synchronization, when local system serves the purprose use empty string App.Run('')
 ```
 
 ## Required NuGet packages
