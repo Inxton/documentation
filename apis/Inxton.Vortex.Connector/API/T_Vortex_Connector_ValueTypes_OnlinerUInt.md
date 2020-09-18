@@ -5,8 +5,8 @@ Class providing access to the UINT type online variable.
 
 
 ## Inheritance Hierarchy
-<a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType.md">Vortex.Connector.ValueTypes.OnlinerBaseType</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">Vortex.Connector.ValueTypes.OnlinerBaseType</a>(<a href="http://msdn2.microsoft.com/en-us/library/s6eyk10z" target="_blank">UInt16</a>)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Connector.ValueTypes.OnlinerUInt<br />
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
+<a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType.md">Vortex.Connector.ValueTypes.OnlinerBaseType</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">Vortex.Connector.ValueTypes.OnlinerBaseType</a>(<a href="https://docs.microsoft.com/dotnet/api/system.uint16" target="_blank">UInt16</a>)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Connector.ValueTypes.OnlinerUInt<br />
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.3.9+Branch.tags/v1.3.9.Sha.76b254c0c0b18db4a0754abdd4dde08f4adae41f
 
 ## Syntax
 
@@ -114,41 +114,41 @@ Gets or sets a value indicating whether this variable should be written to the c
 <a href="#onlineruint-class">Back to Top</a>
 
 ## Methods
-&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td>
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_" target="_blank">Equals</a></td><td>
 Determines whether the specified object is equal to the current object.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a></td><td>
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize#System_Object_Finalize" target="_blank">Finalize</a></td><td>
 Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetDeclaringAssembly.md">GetDeclaringAssembly</a></td><td>
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetDeclaringAssembly.md">GetDeclaringAssembly</a></td><td>
 Gets the assembly that declares the instance of this tag.
- (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td>
+ (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode" target="_blank">GetHashCode</a></td><td>
 Serves as the default hash function.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetLastAvailableValue.md">GetLastAvailableValue</a></td><td>
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetLastAvailableValue.md">GetLastAvailableValue</a></td><td>
 Gets tha most recent value either <a href="P_Vortex_Connector_ValueTypes_OnlinerBaseType_1_LastValue.md">LastValue</a> or <a href="P_Vortex_Connector_ValueTypes_OnlinerBaseType_1_Cyclic.md">Cyclic</a> if that is more recent.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetParent.md">GetParent</a></td><td>
 Gets the parent object of this instance. Parent object is the object that created this instance.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetSymbolTail.md">GetSymbolTail</a></td><td>
 Gets tail of the this tag symbol.
- (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td>
-Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetValueChangeEventSubscribers.md">GetValueChangeEventSubscribers</a></td><td>
+ (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType" target="_blank">GetType</a></td><td>
+Gets the <a href="https://docs.microsoft.com/dotnet/api/system.type" target="_blank">Type</a> of the current instance.
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_GetValueChangeEventSubscribers.md">GetValueChangeEventSubscribers</a></td><td>
 Gets delegates associated with ValueChangeEvent
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_HasWriteAccess.md">HasWriteAccess</a></td><td>
 Get true when this tag has write access.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_MakeReadOnly.md">MakeReadOnly</a></td><td>
 Makes this tag readonly for the current application.
- (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType.md">OnlinerBaseType</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td>
-Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_NotifyPropertyChanged.md">NotifyPropertyChanged</a></td><td>
-Implementation of <a href="http://msdn2.microsoft.com/en-us/library/ms133020" target="_blank">INotifyPropertyChanged</a>.
+ (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType.md">OnlinerBaseType</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone" target="_blank">MemberwiseClone</a></td><td>
+Creates a shallow copy of the current <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_NotifyPropertyChanged.md">NotifyPropertyChanged</a></td><td>
+Implementation of <a href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank">INotifyPropertyChanged</a>.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_OnValueChangeEvent.md">OnValueChangeEvent</a></td><td>
 Notifies the change of <a href="P_Vortex_Connector_ValueTypes_OnlinerBaseType_1_Cyclic.md">Cyclic</a>value.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_ReadFromItem.md">ReadFromItem</a></td><td>
 NVI should be implemented in derived class. When implemented in derived class provide reading of the <a href="P_Vortex_Connector_ValueTypes_OnlinerBaseType_1_Cyclic.md">Cyclic</a>value for this tag from a stream.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_Subscribe.md">Subscribe</a></td><td>
 Subscribes this tag for cyclical reading and invokes <a href="T_Vortex_Connector_ValueTypes_ValueChangedEventHandlerDelegate.md">ValueChangedEventHandlerDelegate</a> when the value changes.
- (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td>
+ (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString" target="_blank">ToString</a></td><td>
 Returns a string that represents the current object.
- (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_UnSubscribe.md">UnSubscribe</a></td><td>
+ (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_UnSubscribe.md">UnSubscribe</a></td><td>
 Un-subscribes this tag from handling the value change. The cyclical reading of this tag will not be cancelled.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Protected method](media/protmethod.gif "Protected method")</td><td><a href="M_Vortex_Connector_ValueTypes_OnlinerBaseType_1_UpdateRead.md">UpdateRead</a></td><td>
 Updates cyclically read value and performs notifications.
@@ -159,7 +159,7 @@ NVI should be implemented in derived class. When implemented in derived class pr
 
 ## Events
 &nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public event](media/pubevent.gif "Public event")</td><td><a href="E_Vortex_Connector_ValueTypes_OnlinerBaseType_1_PropertyChanged.md">PropertyChanged</a></td><td>
-Implementation of <a href="http://msdn2.microsoft.com/en-us/library/ms133020" target="_blank">INotifyPropertyChanged</a> interface.
+Implementation of <a href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged" target="_blank">INotifyPropertyChanged</a> interface.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public event](media/pubevent.gif "Public event")</td><td><a href="E_Vortex_Connector_ValueTypes_OnlinerBaseType_1_ShadowValueChangeEvent.md">ShadowValueChangeEvent</a></td><td><a href="P_Vortex_Connector_ValueTypes_OnlinerBaseType_1_Shadow.md">Shadow</a> value changed event.
  (Inherited from <a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">OnlinerBaseType(T)</a>.)</td></tr><tr><td>![Public event](media/pubevent.gif "Public event")</td><td><a href="E_Vortex_Connector_ValueTypes_OnlinerBaseType_1_ValueChangeEvent.md">ValueChangeEvent</a></td><td>
 Online <a href="P_Vortex_Connector_ValueTypes_OnlinerBaseType_1_Cyclic.md">Cyclic</a> property changed event.

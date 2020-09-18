@@ -3,7 +3,7 @@
 
 Get dictionary of identities.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_Identity.md">Vortex.Connector.Identity</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_Identity.md">Vortex.Connector.Identity</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.3.9+Branch.tags/v1.3.9.Sha.76b254c0c0b18db4a0754abdd4dde08f4adae41f
 
 ## Syntax
 
@@ -14,7 +14,7 @@ public SortedDictionary<ulong, IVortexIdentity> Identities { get; }
 
 
 #### Property Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/f7fta44c" target="_blank">SortedDictionary</a>(<a href="http://msdn2.microsoft.com/en-us/library/06cf7918" target="_blank">UInt64</a>, <a href="T_Vortex_Connector_Identity_IVortexIdentity.md">IVortexIdentity</a>)
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.sorteddictionary-2" target="_blank">SortedDictionary</a>(<a href="https://docs.microsoft.com/dotnet/api/system.uint64" target="_blank">UInt64</a>, <a href="T_Vortex_Connector_Identity_IVortexIdentity.md">IVortexIdentity</a>)
 
 ## See Also
 

@@ -3,7 +3,7 @@
 
 Reads batch of value items from the plc.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
+**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.3.9+Branch.tags/v1.3.9.Sha.76b254c0c0b18db4a0754abdd4dde08f4adae41f
 
 ## Syntax
 
@@ -16,7 +16,7 @@ public abstract void ReadBatch(
 
 
 #### Parameters
-&nbsp;<dl><dt>valueTags</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/9eekhta0" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="T_Vortex_Connector_IValueTag.md">IValueTag</a>)<br />Value items to be read.</dd></dl>
+&nbsp;<dl><dt>valueTags</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="T_Vortex_Connector_IValueTag.md">IValueTag</a>)<br />Value items to be read.</dd></dl>
 
 ## See Also
 

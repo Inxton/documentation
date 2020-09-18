@@ -3,7 +3,7 @@
 
 Checks for the existence of <a href="T_Vortex_Connector_IgnoreReflectionAttribute.md">IgnoreReflectionAttribute</a> declaration on given property.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
+**Namespace:**&nbsp;<a href="N_Vortex_Connector.md">Vortex.Connector</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.3.9+Branch.tags/v1.3.9.Sha.76b254c0c0b18db4a0754abdd4dde08f4adae41f
 
 ## Syntax
 
@@ -16,10 +16,10 @@ public static bool HasIgnoreReflectionAttribute(
 
 
 #### Parameters
-&nbsp;<dl><dt>property</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/8z852kf5" target="_blank">System.Reflection.PropertyInfo</a><br />PropertyInfo</dd></dl>
+&nbsp;<dl><dt>property</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.reflection.propertyinfo" target="_blank">System.Reflection.PropertyInfo</a><br />PropertyInfo</dd></dl>
 
 #### Return Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a><br />True when the property declares <a href="T_Vortex_Connector_IgnoreReflectionAttribute.md">IgnoreReflectionAttribute</a>.
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.boolean" target="_blank">Boolean</a><br />True when the property declares <a href="T_Vortex_Connector_IgnoreReflectionAttribute.md">IgnoreReflectionAttribute</a>.
 
 ## See Also
 

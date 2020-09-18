@@ -4,8 +4,8 @@
 
 ## Overload List
 &nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="M_Vortex_Connector_IConnectorFactory_CreateSTRING.md">CreateSTRING()</a></td><td>
-Creates <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a> empty tag of a value type STRING;</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_IConnectorFactory_CreateSTRING_1.md">CreateSTRING(IVortexObject, String, String)</a></td><td>
-Creates <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a> tag of a value type STRING;</td></tr></table>&nbsp;
+Creates <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a> empty tag of a value type STRING;</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")</td><td><a href="M_Vortex_Connector_IConnectorFactory_CreateSTRING_1.md">CreateSTRING(IVortexObject, String, String)</a></td><td>
+Creates <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a> tag of a value type STRING;</td></tr></table>&nbsp;
 <a href="#iconnectorfactory.createstring-method">Back to Top</a>
 
 ## See Also

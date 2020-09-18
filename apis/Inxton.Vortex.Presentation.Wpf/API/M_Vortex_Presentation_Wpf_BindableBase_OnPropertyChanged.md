@@ -1,9 +1,9 @@
 # BindableBase.OnPropertyChanged Method 
  
 
-Raises <a href="http://msdn2.microsoft.com/en-us/library/ms133023" target="_blank">PropertyChanged</a> event.
+Raises <a href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged" target="_blank">PropertyChanged</a> event.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.3.4+Branch.master.Sha.228e36731bfab5de39bc844494a99d4df7de6d31
 
 ## Syntax
 
@@ -16,7 +16,7 @@ protected virtual void OnPropertyChanged(
 
 
 #### Parameters
-&nbsp;<dl><dt>propertyName</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System.String</a><br /></dd></dl>
+&nbsp;<dl><dt>propertyName</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">System.String</a><br /></dd></dl>
 
 ## See Also
 

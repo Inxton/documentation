@@ -1,7 +1,7 @@
 # RelayCommand.CanExecute Method 
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.3.4+Branch.master.Sha.228e36731bfab5de39bc844494a99d4df7de6d31
 
 ## Syntax
 
@@ -14,13 +14,13 @@ public bool CanExecute(
 
 
 #### Parameters
-&nbsp;<dl><dt>parameter</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br /></dd></dl>
+&nbsp;<dl><dt>parameter</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br /></dd></dl>
 
 #### Return Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a>
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.boolean" target="_blank">Boolean</a>
 
 #### Implements
-<a href="http://msdn2.microsoft.com/en-us/library/ms604093" target="_blank">ICommand.CanExecute(Object)</a><br />
+<a href="https://docs.microsoft.com/dotnet/api/system.windows.input.icommand.canexecute#System_Windows_Input_ICommand_CanExecute_System_Object_" target="_blank">ICommand.CanExecute(Object)</a><br />
 
 ## See Also
 

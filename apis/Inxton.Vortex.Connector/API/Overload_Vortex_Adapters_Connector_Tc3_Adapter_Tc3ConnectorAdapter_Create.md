@@ -3,7 +3,9 @@
 
 
 ## Overload List
-&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="M_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter_Create.md">Create(Int32, Boolean, SymbolLoadingMode, SymbolLoadMethod)</a></td><td /></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="M_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter_Create_1.md">Create(String, Int32, Boolean, SymbolLoadingMode, SymbolLoadMethod)</a></td><td /></tr></table>&nbsp;
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="M_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter_Create.md">Create(Int32, Boolean, SymbolLoadingMode, SymbolLoadMethod)</a></td><td>
+Creates an instance of <a href="T_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter.md">Tc3ConnectorAdapter</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="M_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter_Create_1.md">Create(String, Int32, Boolean, SymbolLoadingMode, SymbolLoadMethod)</a></td><td>
+Creates an instance of <a href="T_Vortex_Adapters_Connector_Tc3_Adapter_Tc3ConnectorAdapter.md">Tc3ConnectorAdapter</a>.</td></tr></table>&nbsp;
 <a href="#tc3connectoradapter.create-method">Back to Top</a>
 
 ## See Also

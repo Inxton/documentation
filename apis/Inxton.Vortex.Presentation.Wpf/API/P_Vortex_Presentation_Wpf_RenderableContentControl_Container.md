@@ -3,7 +3,7 @@
 
 Gets or sets the container in which the content is rendered.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.3.4+Branch.master.Sha.228e36731bfab5de39bc844494a99d4df7de6d31
 
 ## Syntax
 
@@ -14,7 +14,7 @@ public FrameworkElement Container { get; set; }
 
 
 #### Property Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/ms602714" target="_blank">FrameworkElement</a>
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.windows.frameworkelement" target="_blank">FrameworkElement</a>
 
 ## See Also
 

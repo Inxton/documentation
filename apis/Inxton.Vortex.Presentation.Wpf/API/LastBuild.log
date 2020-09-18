@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.6.24.0" projectFile="E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Vortex.Presentation.Wpf.Documentation.shfbproj" started="7/7/2020 7:20:16 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Vortex.Presentation.Wpf.Documentation.shfbproj" started="9/17/2020 7:32:16 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -7,35 +7,58 @@ Locating components in the following folder(s):
     E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
-Using framework reflection data for &#39;.NET Framework 4.8&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using framework reflection data for &#39;Cross-platform (.NET Core/.NET Standard)&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
 Using presentation style &#39;Markdown&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown&#39;
 Loading and initializing plug-ins...
-Assembly Binding Redirection Version 2019.6.24.0
-Copyright &#169; 2006-2019, Eric Woodruff, All Rights Reserved
+Assembly Binding Redirection Version 2020.3.6.0
+Copyright &#169; 2006-2020, Eric Woodruff, All Rights Reserved
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: E:\A1\w\5\s\src\wpf\Vortex.Presentation.Base.Wpf\Vortex.Presentation.Wpf.csproj
-    Found project &#39;E:\A1\w\5\s\src\wpf\Vortex.Presentation.Base.Wpf\Vortex.Presentation.Wpf.csproj&#39;
+Source: E:\A1\w\5\s\src\wpf\Vortex.Presentation.Wpf\Vortex.Presentation.Wpf.csproj
+    Found project &#39;E:\A1\w\5\s\src\wpf\Vortex.Presentation.Wpf\Vortex.Presentation.Wpf.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;E:\A1\w\5\s\src\wpf\Vortex.Presentation.Base.Wpf\bin\Release\Vortex.Presentation.Wpf.dll&#39;
+    Found assembly &#39;E:\A1\w\5\s\src\wpf\Vortex.Presentation.Wpf\bin\Release\net48\Vortex.Presentation.Wpf.dll&#39;
 
 References to include:
-    Inxton.Licencing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3bf43df27f52305d, processorArchitecture=MSIL
-    Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL
-    Serilog.Sinks.Console, Version=3.1.1.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL
-    Serilog.Sinks.File, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL
-    System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
-    System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
-    System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
-    Vortex.Connector, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9f2602fd14098343, processorArchitecture=MSIL
-    Vortex.Framework.Abstractions, Version=0.103.0.0, Culture=neutral, PublicKeyToken=9f2602fd14098343, processorArchitecture=MSIL
+    Inxton.Licencing
+    Newtonsoft.Json
+    Serilog
+    Serilog.Sinks.Console
+    Serilog.Sinks.File
+    System.Collections
+    System.Collections.NonGeneric
+    System.Console
+    System.Dynamic.Runtime
+    System.Globalization
+    System.IO
+    System.IO.FileSystem
+    System.IO.FileSystem.Primitives
+    System.Linq
+    System.Linq.Expressions
+    System.ObjectModel
+    System.Reflection
+    System.Reflection.Extensions
+    System.Reflection.Primitives
+    System.Runtime
+    System.Runtime.Extensions
+    System.Runtime.Handles
+    System.Runtime.InteropServices
+    System.Runtime.InteropServices.RuntimeInformation
+    System.Text.Encoding
+    System.Text.Encoding.Extensions
+    System.Text.RegularExpressions
+    System.Threading
+    System.Threading.Tasks
+    System.Threading.Timer
+    Vortex.Connector
+    Vortex.Framework.Abstractions
 
 Copying XML comments files
-    E:\A1\w\5\s\src\wpf\Vortex.Presentation.Base.Wpf\bin\Release\Vortex.Presentation.Wpf.xml -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Vortex.Presentation.Wpf.xml
+    C:\MTS\Develop\foxtroth\vortex.framework.presentation\src\wpf\Vortex.Presentation.Wpf\Vortex.Presentation.Wpf.xml -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Vortex.Presentation.Wpf.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
@@ -43,7 +66,7 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -55,91 +78,109 @@ Adding ignored assembly names to assembly resolver configuration:
     PresentationFramework
     System
     WindowsBase
-</plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 7/7/2020 7:20:17 AM.
+</plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 9/17/2020 7:32:18 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
-_HandlePackageFileConflicts:
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39; and &#39;Platform:System.ValueTuple.dll&#39;.  NETSDK1033: Choosing &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39; because AssemblyVersion &#39;4.0.3.0&#39; is greater than &#39;4.0.2.0&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\GenerateRefInfo.proj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Platform:System.ValueTuple.dll&#39; and &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39;.  NETSDK1033: Choosing &#39;Reference:System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL&#39; because AssemblyVersion &#39;4.0.3.0&#39; is greater than &#39;4.0.2.0&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\GenerateRefInfo.proj]
 GenerateBindingRedirects:
   No suggested binding redirects from ResolveAssemblyReferences.
 GenerateRefInfo:
-  MRefBuilder (v2019.6.24.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  MRefBuilder (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
-  Loaded 1 assemblies for reflection and 113 dependency assemblies.
-  Wrote information on 3 namespaces, 41 types, and 180 members
-  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
-  XslTransform (v2019.6.24.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 112 dependency assemblies.
+  Wrote information on 3 namespaces, 42 types, and 181 members
+  Copying file from &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\reflection.org&quot; to &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\reflection.all&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddXamlSyntaxData.xsl&#39;.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:02.7750
+    Last step completed in 00:00:03.0370
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
-[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 7/7/2020 7:20:20 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 9/17/2020 7:32:21 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
-  XslTransform (v2019.6.24.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  Copying file from &quot;reflection.xml&quot; to &quot;reflection.ungrouped&quot;.
-  AddNamespaceGroups (v2019.6.24.0)
-  Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+  Copying file from &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\reflection.xml&quot; to &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\reflection.ungrouped&quot;.
+  AddNamespaceGroups (v2020.3.6.0)
+  Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
   Added 1 namespace group entries
-  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
-  XslTransform (v2019.6.24.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Copying file from &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\reflection.xml&quot; to &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\reflection.nofilenames&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
     Unique name M_Vortex_Presentation_Wpf_CreatorFailureDisplayBox__ctor_1 generated for M:Vortex.Presentation.Wpf.CreatorFailureDisplayBox.#ctor(System.Exception,Vortex.Presentation.Wpf.ReportingLevel)
     Unique name M_Vortex_Presentation_Wpf_RelayCommand__ctor_1 generated for M:Vortex.Presentation.Wpf.RelayCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean})
     Unique name M_Vortex_Presentation_Wpf_RelayCommand__ctor_2 generated for M:Vortex.Presentation.Wpf.RelayCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean},System.Object,System.String)
     Unique name M_Vortex_Presentation_Wpf_RelayCommand__ctor_3 generated for M:Vortex.Presentation.Wpf.RelayCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean},Vortex.Connector.IVortexObject,System.String)
     Unique name M_Vortex_Presentation_Wpf_RelayCommand_1__ctor_1 generated for M:Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},Vortex.Connector.IVortexObject,System.String)
-  XslTransform (v2019.6.24.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:01.6080
+    Last step completed in 00:00:01.7680
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1470
+    Last step completed in 00:00:00.2430
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
-[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
-Sandcastle Help File Builder and Tools, version 2019.6.24.0
-Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
-Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\*.xml
-Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Vortex.Connector.xml
-Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.ValueTuple.xml
-Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Threading.Tasks.Extensions.xml
-Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Runtime.CompilerServices.Unsafe.xml
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\*.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Threading.Timer.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Text.Encoding.Extensions.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.IO.FileSystem.Primitives.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.IO.FileSystem.xml
 Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Serilog.Sinks.File.xml
-Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Serilog.Sinks.Console.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Threading.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Globalization.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Reflection.Extensions.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Runtime.Handles.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Reflection.Primitives.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Reflection.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Text.Encoding.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Runtime.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Threading.Tasks.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.IO.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Console.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Text.RegularExpressions.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Runtime.Extensions.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Linq.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.ObjectModel.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Linq.Expressions.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Dynamic.Runtime.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Collections.NonGeneric.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\System.Collections.xml
 Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Serilog.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Serilog.Sinks.Console.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Newtonsoft.Json.xml
+Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Vortex.Connector.xml
 Indexing E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Vortex.Presentation.Wpf.xml
-Indexed 160283 members in 135 file(s).  8 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 161915 members in 156 file(s).  29 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.0020
+    Last step completed in 00:00:01.2510
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -156,19 +197,19 @@ Copying images and creating the media map file...
     E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\media\AutomatedUI\rendering_chart.png -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\media\rendering_chart.png
     E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\media\AutomatedUI\ST01_RENDERING_EXAMPLE.PNG -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\media\ST01_RENDERING_EXAMPLE.PNG
 Generating conceptual topic files
-    Last step completed in 00:00:00.0350
+    Last step completed in 00:00:00.0360
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\icons\Help.png -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Output\Markdown\icons\Help.png
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -176,22 +217,22 @@ Merging conceptual and additional tables of contents...
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
-[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 7/7/2020 7:20:23 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 9/17/2020 7:32:24 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
-  XslTransform (v2019.6.24.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2480
+    Last step completed in 00:00:00.2810
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1350
+    Last step completed in 00:00:00.2430
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -199,20 +240,20 @@ E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\sandcastle.c
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
-[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 7/7/2020 7:20:23 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 9/17/2020 7:32:25 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
-  BuildAssembler (v2019.6.24.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  BuildAssembler (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainer.ValueHolder] Unknown reference link target &#39;T:Vortex.Connector.ValueTypes.OnlinerInt&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainer.ValueHolder] Unknown reference link target &#39;T:Vortex.Connector.IVortexElement&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Presentation.Wpf] Unknown reference link target &#39;T:Vortex.Connector.IVortexObject&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Presentation.Wpf] Unknown reference link target &#39;T:Vortex.Connector.IValueTag&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [N:Vortex.Presentation.Wpf] Unknown reference link target &#39;!:Twin&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
@@ -255,24 +296,22 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentatio
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)] Unknown reference link target &#39;T:Vortex.Connector.IVortexObject&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)] Unknown reference link target &#39;T:Vortex.Connector.IVortexElement&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)] Unknown reference link target &#39;T:Vortex.Connector.IVortexObject&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Vortex.Presentation.Wpf.StartUpWindow] MSDN URL not found for target &#39;M:System.Windows.Window.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Vortex.Presentation.Wpf.StartUpWindow] MSDN URL not found for target &#39;M:System.Windows.Window.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Wpf.TimeFormatConverter.#ctor(TimeFormatAttribute)] Unknown reference link target &#39;T:TimeFormatAttribute&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl(Layout)] Unknown reference link target &#39;T:Layout&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl(Layout)] Unknown reference link target &#39;T:Layout&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl(Layout)] Unknown reference link target &#39;M:Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)&#39;. [E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj]
-  Processed 303 topic(s)
-  49 warning(s)
+  Processed 308 topic(s)
+  47 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 0 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 13 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:11.6951
+    Last step completed in 00:00:12.8172
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -317,7 +356,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Output\Markdown\media\static.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Output\Markdown\media\xna.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Wpf.Documentation\Help\Working\Output\Markdown\_Footer.md
-    Last step completed in 00:00:00.1370
+    Last step completed in 00:00:00.1400
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
@@ -325,23 +364,23 @@ Executing informational Generate Table of Contents build step for plug-ins (not 
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Generating markdown content...
-[C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateMarkdownContent.proj]
-  Finished generating 303 topics
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateMarkdownContent.proj]
+  Finished generating 308 topics
   Copying content to output folder...
-  Finished copying 347 files
-    Last step completed in 00:00:01.0420
+  Finished copying 352 files
+    Last step completed in 00:00:01.2990
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0340
+    Last step completed in 00:00:00.0400
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 7/7/2020 7:20:36 AM.  Total time: 00:00:20.2352
+Build completed successfully at 9/17/2020 7:32:39 PM.  Total time: 00:00:22.6423
 
 </buildStep>
 </shfbBuild>

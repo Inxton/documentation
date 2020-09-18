@@ -1,7 +1,7 @@
 # BaseConverter.Convert Method 
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf_Converters.md">Vortex.Presentation.Wpf.Converters</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf_Converters.md">Vortex.Presentation.Wpf.Converters</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.3.4+Branch.master.Sha.228e36731bfab5de39bc844494a99d4df7de6d31
 
 ## Syntax
 
@@ -17,13 +17,13 @@ public Object Convert(
 
 
 #### Parameters
-&nbsp;<dl><dt>value</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br /></dd><dt>targetType</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">System.Type</a><br /></dd><dt>parameter</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System.Object</a><br /></dd><dt>culture</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/kx54z3k7" target="_blank">System.Globalization.CultureInfo</a><br /></dd></dl>
+&nbsp;<dl><dt>value</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br /></dd><dt>targetType</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.type" target="_blank">System.Type</a><br /></dd><dt>parameter</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br /></dd><dt>culture</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo" target="_blank">System.Globalization.CultureInfo</a><br /></dd></dl>
 
 #### Return Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>
 
 #### Implements
-<a href="http://msdn2.microsoft.com/en-us/library/ms590771" target="_blank">IValueConverter.Convert(Object, Type, Object, CultureInfo)</a><br />
+<a href="https://docs.microsoft.com/dotnet/api/system.windows.data.ivalueconverter.convert#System_Windows_Data_IValueConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_" target="_blank">IValueConverter.Convert(Object, Type, Object, CultureInfo)</a><br />
 
 ## See Also
 

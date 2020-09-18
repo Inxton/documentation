@@ -3,7 +3,7 @@
 
 InitializeComponent
 
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 1.1.2+Branch.master.Sha.e10390af75ec466990c3a0e7b7d3595bd05fe7b8
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Presentation.Controls.Wpf (in Vortex.Presentation.Controls.Wpf.dll) Version: 1.3.4+Branch.master.Sha.228e36731bfab5de39bc844494a99d4df7de6d31
 
 ## Syntax
 
@@ -14,7 +14,7 @@ public void InitializeComponent()
 
 
 #### Implements
-<a href="http://msdn2.microsoft.com/en-us/library/ms603526" target="_blank">IComponentConnector.InitializeComponent()</a><br />
+<a href="https://docs.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector.initializecomponent#System_Windows_Markup_IComponentConnector_InitializeComponent" target="_blank">IComponentConnector.InitializeComponent()</a><br />
 
 ## See Also
 

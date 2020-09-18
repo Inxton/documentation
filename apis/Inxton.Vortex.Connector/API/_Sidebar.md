@@ -208,6 +208,7 @@
           - [IValueTagInfo.IsAvailable Property](P_Vortex_Connector_IValueTagInfo_IsAvailable.md)
           - [IValueTagInfo.Length Property](P_Vortex_Connector_IValueTagInfo_Length.md)
           - [IValueTagInfo.Offset Property](P_Vortex_Connector_IValueTagInfo_Offset.md)
+          - [IValueTagInfo.Size Property](P_Vortex_Connector_IValueTagInfo_Size.md)
           - [IValueTagInfo.Symbol Property](P_Vortex_Connector_IValueTagInfo_Symbol.md)
       - [IVortexElement Interface](T_Vortex_Connector_IVortexElement.md)
         - [IVortexElement Properties](Properties_T_Vortex_Connector_IVortexElement.md)

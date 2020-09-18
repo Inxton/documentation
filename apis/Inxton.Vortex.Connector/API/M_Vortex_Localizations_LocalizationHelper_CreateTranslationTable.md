@@ -1,7 +1,7 @@
 # LocalizationHelper.CreateTranslationTable Method (IEnumerable(String), List(Localizables))
  
 
-**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.1.0+Branch.master.Sha.6964545d53528bb038364111fd08af947d49d02f
+**Namespace:**&nbsp;<a href="N_Vortex_Localizations.md">Vortex.Localizations</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.3.9+Branch.tags/v1.3.9.Sha.76b254c0c0b18db4a0754abdd4dde08f4adae41f
 
 ## Syntax
 
@@ -15,10 +15,10 @@ public static List<Localizables> CreateTranslationTable(
 
 
 #### Parameters
-&nbsp;<dl><dt>input</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/9eekhta0" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>)<br /></dd><dt>list (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">System.Collections.Generic.List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)<br /></dd></dl>
+&nbsp;<dl><dt>input</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank">System.Collections.Generic.IEnumerable</a>(<a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank">String</a>)<br /></dd><dt>list (Optional)</dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1" target="_blank">System.Collections.Generic.List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)<br /></dd></dl>
 
 #### Return Value
-Type: <a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)
+Type: <a href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1" target="_blank">List</a>(<a href="T_Vortex_Localizations_Localizables.md">Localizables</a>)
 
 ## See Also
 
