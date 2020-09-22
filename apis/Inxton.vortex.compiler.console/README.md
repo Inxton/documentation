@@ -105,6 +105,26 @@ PS C:\[YourSolutionFolder]\_Vortex> .\builder\vortex.compiler.console.exe
 ~~~
 
 
+**Compiler options**
+
+-c --config       file; defaults to 'vortex_config.json' from the current directory
+
+-d --directives   compiler directives; defaults 'wpf+clr'
+
+-o --output       sets output directory for source files; default is currentDirectory/out/
+
+-p --publish      true/(default)false; in addition to clr twin compilation the plc library is compiled (files are places into Release configuration directory of the twinController project)
+
+-q --quit_on_done true/(default)false; closes VS studion upon task completion
+
+i --update_controller_version true/(default)false; updates the version of the plc library to match twins version info attribute located in twin connector projects' Property/AssemblyInfo.cs
+
+-v                versbosity 'Info/Verbose/Warning/Debug' (default Info)
+
+-b                builds twin connector projects
+
+
+
 ><strong style="color:orange">NOTE</strong>: <span style="color:orange">
 Compiler collects strings from the PLC program that can be later localized. 
 This feature is available and will be documented soon. 
