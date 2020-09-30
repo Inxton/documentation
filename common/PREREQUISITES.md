@@ -10,4 +10,4 @@ Make sure you have installed items listed below. If you do not have any it insta
 -------
 See also
 
-[Installation](INSTALLATION.MD)
+[Installation](INSTALLATION.md)
