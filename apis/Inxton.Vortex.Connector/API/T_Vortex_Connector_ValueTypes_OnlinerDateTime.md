@@ -6,7 +6,7 @@ Class providing access to the DATE_AND_TIME (DT) type online variable.
 
 ## Inheritance Hierarchy
 <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType.md">Vortex.Connector.ValueTypes.OnlinerBaseType</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Connector_ValueTypes_OnlinerBaseType_1.md">Vortex.Connector.ValueTypes.OnlinerBaseType</a>(<a href="https://docs.microsoft.com/dotnet/api/system.datetime" target="_blank">DateTime</a>)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Connector.ValueTypes.OnlinerDateTime<br />
-**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.3.9+Branch.tags/v1.3.9.Sha.76b254c0c0b18db4a0754abdd4dde08f4adae41f
+**Namespace:**&nbsp;<a href="N_Vortex_Connector_ValueTypes.md">Vortex.Connector.ValueTypes</a><br />**Assembly:**&nbsp;Vortex.Connector (in Vortex.Connector.dll) Version: 1.3.12+Branch.tags-v1.3.12.Sha.00bdfb8be9e078a68c552d3a1d81a8775d48ab55
 
 ## Syntax
 

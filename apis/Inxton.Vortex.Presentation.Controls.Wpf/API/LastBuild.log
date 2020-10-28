@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Vortex.Presentation.Controls.Wpf.Documentation.shfbproj" started="9/17/2020 7:32:39 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Vortex.Presentation.Controls.Wpf.Documentation.shfbproj" started="10/27/2020 1:52:52 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -35,7 +35,7 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -48,7 +48,7 @@ Adding ignored assembly names to assembly resolver configuration:
     System
     WindowsBase
 </plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 9/17/2020 7:32:42 PM.
+Build started 10/27/2020 1:52:55 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -68,12 +68,12 @@ GenerateRefInfo:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddXamlSyntaxData.xsl&#39;.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:07.2091
+    Last step completed in 00:00:07.2561
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 9/17/2020 7:32:49 PM.
+Build started 10/27/2020 1:53:02 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2020.3.6.0)
@@ -94,11 +94,11 @@ TransformManifest:
   Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:27.6154
+    Last step completed in 00:00:27.6019
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:01.2890
+    Last step completed in 00:00:01.2960
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -114,19 +114,19 @@ Copying images and creating the media map file...
     E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\RendererConsumingExample.PNG -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\RendererConsumingExample.PNG
     E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\media\AutomatedUI\ST01_RENDERING_EXAMPLE.PNG -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\media\ST01_RENDERING_EXAMPLE.PNG
 Generating conceptual topic files
-    Last step completed in 00:00:00.0300
+    Last step completed in 00:00:00.0310
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\icons\Help.png -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\icons\Help.png
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -135,7 +135,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 9/17/2020 7:33:18 PM.
+Build started 10/27/2020 1:53:31 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2020.3.6.0)
@@ -144,12 +144,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.9530
+    Last step completed in 00:00:01.9449
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.8590
+    Last step completed in 00:00:00.8580
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -157,12 +157,12 @@ E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\san
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 9/17/2020 7:33:21 PM.
+Build started 10/27/2020 1:53:34 PM.
 Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2020.3.6.0)
@@ -412,11 +412,11 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Vortex.Presentatio
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:01:09.1770
+    Last step completed in 00:01:09.4774
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -461,15 +461,15 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\static.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\media\xna.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; E:\A1\w\5\s\docs\Vortex.Presentation.Controls.Wpf.Documentation\Help\Working\Output\Markdown\_Footer.md
-    Last step completed in 00:00:00.1440
+    Last step completed in 00:00:00.1460
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Generating markdown content...
@@ -479,15 +479,15 @@ Generating markdown content...
   Copying content to output folder...
   Copied 500 files
   Finished copying 845 files
-    Last step completed in 00:00:18.6013
+    Last step completed in 00:00:18.4294
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1400
+    Last step completed in 00:00:00.1380
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/17/2020 7:34:49 PM.  Total time: 00:02:09.7108
+Build completed successfully at 10/27/2020 1:55:02 PM.  Total time: 00:02:09.9289
 
 </buildStep>
 </shfbBuild>

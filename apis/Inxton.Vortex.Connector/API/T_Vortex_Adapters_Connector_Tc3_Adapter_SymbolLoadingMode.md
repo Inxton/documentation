@@ -3,7 +3,7 @@
 
 Enumerates way the symbols will be loaded from the PLC.
 
-**Namespace:**&nbsp;<a href="N_Vortex_Adapters_Connector_Tc3_Adapter.md">Vortex.Adapters.Connector.Tc3.Adapter</a><br />**Assembly:**&nbsp;Vortex.Adapters.Connector.Tc3 (in Vortex.Adapters.Connector.Tc3.dll) Version: 1.3.9+Branch.tags/v1.3.9.Sha.76b254c0c0b18db4a0754abdd4dde08f4adae41f
+**Namespace:**&nbsp;<a href="N_Vortex_Adapters_Connector_Tc3_Adapter.md">Vortex.Adapters.Connector.Tc3.Adapter</a><br />**Assembly:**&nbsp;Vortex.Adapters.Connector.Tc3 (in Vortex.Adapters.Connector.Tc3.dll) Version: 1.3.12+Branch.tags-v1.3.12.Sha.00bdfb8be9e078a68c552d3a1d81a8775d48ab55
 
 ## Syntax
 

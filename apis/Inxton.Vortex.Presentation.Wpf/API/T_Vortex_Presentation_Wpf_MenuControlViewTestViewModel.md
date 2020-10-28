@@ -4,7 +4,7 @@
 
 ## Inheritance Hierarchy
 <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System.Object</a><br />&nbsp;&nbsp;<a href="T_Vortex_Presentation_Wpf_BindableBase.md">Vortex.Presentation.Wpf.BindableBase</a><br />&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Presentation_Wpf_NavigableViewModelBase.md">Vortex.Presentation.Wpf.NavigableViewModelBase</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="T_Vortex_Presentation_Wpf_MenuControlViewModel.md">Vortex.Presentation.Wpf.MenuControlViewModel</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex.Presentation.Wpf.MenuControlViewTestViewModel<br />
-**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.3.4+Branch.master.Sha.228e36731bfab5de39bc844494a99d4df7de6d31
+**Namespace:**&nbsp;<a href="N_Vortex_Presentation_Wpf.md">Vortex.Presentation.Wpf</a><br />**Assembly:**&nbsp;Vortex.Presentation.Wpf (in Vortex.Presentation.Wpf.dll) Version: 1.3.21+Branch.tags/v1.3.21.Sha.d2d012c69d12da922e6e4a18ad43e5435cbba0f0
 
 ## Syntax
 
