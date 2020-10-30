@@ -2,7 +2,7 @@
 
 ## Standard PLC attribute pragmas
 
-Pragma instructions affect the properties of one or more variables regarding the compilation or precompilation process. Please find out more about TwinCAT 3 attribute [pragmas](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/171136788369635211.html&id=9069166866486725303) or some more information about [pragrmas in general](https://en.wikipedia.org/wiki/Directive_(programming)).
+Pragma instructions affect the properties of one or more variables regarding the compilation or precompilation process. Please find out more about TwinCAT 3 attribute [pragmas](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_plc_intro/171136788369635211.html&id=9069166866486725303) or some more information about [pragmas in general](https://en.wikipedia.org/wiki/Directive_(programming)).
 
 Some of the standard PLC attribute pragmas have influence as well to the Inxton compiler. However, Inxton elevates pragmas to another level by extending pragmas to provide you faster UI development or extending [Twins](Twins.md) by properties that suit your needs.
 
