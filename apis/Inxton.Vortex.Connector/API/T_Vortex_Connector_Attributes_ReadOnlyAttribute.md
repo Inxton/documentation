@@ -11,9 +11,9 @@ This example demonstrates declaration of ReadOnlyAttribute on a member of a FB.
 ```
 FUNCTION_BLOCK fbSomeReadOnlyMembers 
 VAR
-    {attribute clr [ReadOnly()]]}
+    {attribute clr [ReadOnly()]}
     _nonWrittableItem : BOOL;       // Member is readonly for .net application.
-    {attribute clr [ReadOnly()]]}
+    {attribute clr [ReadOnly()]}
     _nonWrittableFunctionBlock : fbNonWrittable; // Member and its members are readonly for the .net application.
 END_VAR
 ```
