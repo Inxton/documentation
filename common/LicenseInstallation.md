@@ -1,13 +1,12 @@
-# License installation
+## Licencing
+From v2 you can use Inxton libraries for TwinCAT3 free of charge respecting the following:
 
-We are provide a perpetual, free of charge developer license to everyone who wishes to work with our tools and libraries.
+Copyright (c) 2022 MTS spol. s r.o.
 
-Watch the tutorial on YouTube!
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software for commercial and non-commercial purposes. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- ![Youtube Favicon](https://www.youtube.com/favicon.ico) [How to download a license to get started with Inxton.](https://www.youtube.com/watch?v=SdCjBbvDjP8)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-To install your developer license, just register and grab it at [inxton.com](https://www.inxton.com/getting-started).
+Redistribution of binaries is permitted solely as part of another software solution, in which this software is a means to create other software that does not provide the same set of functionalities. It is expressly forbidden to sublicense or resell this software.
 
-The developer license does not limit the functionality but limits the run of the application to about 2 hours. After this period, the application can be restarted and will run again for 30mins to 2 hours period. You can have multiple developer licenses to run your applications simultaneously on various hardware devices. You can retrieve your additional developer licenses at [inxton.com](inxton.com).
-
-We will ask you to purchase the license when you decide to deploy your application to your customer. This paid license does not contain any limitations of the developer's license.
+You accept that the software may include telemetry features that may contain personally non-identifiable information about the usage and perfomance of the software.
