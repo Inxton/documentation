@@ -17,7 +17,7 @@ Here we are coming with the results. We will progressively release several packa
 
 ## Licencing
 
-More information about support, licensing and pricing is available [here](https://www.inxton.com/pricing). The bottom line is that you can use a **developer license free of charge**. There are no limits to developer license except that it must not be deployed in the production environment and the run of the application is limited to a period of 30-120 minutes after which the application terminates and must be restarted. The application under development license can be used for testing until deployed to production.
+Information about license [here](https://github.com/Inxton/documentation/blob/master/common/LicenseInstallation.md)
 
 ## Note to preview versions
 
@@ -27,8 +27,7 @@ The packages will be first released as preview versions. These versions are clos
 
 - **[Inxton.Package.Vortex.Core](./Inxton.Package.Vortex.Core/README.md)** (compiler, connectivity)
 - **[Inxton.Package.Vortex.Essentials](./Inxton.Package.Vortex.Essentials/README.md)** (Core + automated UI generation)
-- [Inxton.Package.Vortex.Advanced](https://www.inxton.com) (coming soon) (Essentials + user security, PLC to .net RPC, etc)
-- [Inxton.Package.Vortex.Ultimate](https://www.inxton.com) (coming soon) (Advanced + coordination libraries for effective PLC task handling, CRUD PLC to Data Repositories, extensive user action logging, etc.)
+
 
 We recommend to subscribe to some of our channels where we will be announcing news that might be useful to you. See the links below.
 
